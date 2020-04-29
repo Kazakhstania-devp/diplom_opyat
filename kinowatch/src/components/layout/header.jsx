@@ -16,7 +16,12 @@ function Header (props){
                 <li className = "menu__item"><a href = "#">Anime</a></li>
                 <li className = "menu__item"><a href = "#">My list</a></li>
             </ul>
-            
+            <div className="header__search">
+                <form>
+                <input type="text" placeholder="Искать здесь..." />
+                <button type="submit"></button>
+                </form>
+            </div>
         </header>
     )
 }
