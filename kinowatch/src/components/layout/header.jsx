@@ -1,6 +1,6 @@
 import React from 'react';
-import  Logo from '../images/KinoWatch.png'
-import  Night from '../images/night.png'
+import  Logo from '../../images/KinoWatch.png'
+import  Night from '../../images/night.png'
 
 
 function Header (props){
