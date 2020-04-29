@@ -6,6 +6,7 @@ import  Night from '../../images/night.png'
 function Header (props){
     return(
         <header className = "header__app header">
+            <div className = "header--left">
             <a href="#" className="header__logo">
                 <img src={Logo} />
             </a>
@@ -16,6 +17,7 @@ function Header (props){
                 <li className = "menu__item"><a href = "#">Anime</a></li>
                 <li className = "menu__item"><a href = "#">My list</a></li>
             </ul>
+            </div>
             <div className="header__search">
                 <form>
                 <input type="text" placeholder="Искать здесь..." />

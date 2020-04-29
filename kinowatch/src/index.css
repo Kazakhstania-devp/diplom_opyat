@@ -15,10 +15,18 @@ code {
 ul{
   list-style: none
 }
+.header--left{
+  display: flex;
+  align-items: center
+}
 .header__app{
   display: flex;
   background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.69) 204.06%, rgba(20, 20, 20, 0) 212%);
+  align-items: center;
+padding-left: 70px;
+padding-right: 70px;
 
+justify-content: space-between;
 }
 .header__menu{
   display: flex;
