@@ -24,10 +24,16 @@ ul{
   display: flex;
 }
 .menu__item{
-  
+  font-size: 18px;
+line-height: 28px;
 color: #FFFFFF;
   margin-right: 50px;
 }
 a{
+  
+  color: #FFFFFF;
 	text-decoration: none;
+}
+.link--active{
+  border-bottom: 1px solid #FFFFFF;
 }
