@@ -16,6 +16,7 @@ function Header (props){
                 <li className = "menu__item"><a href = "#">Anime</a></li>
                 <li className = "menu__item"><a href = "#">My list</a></li>
             </ul>
+            
         </header>
     )
 }
