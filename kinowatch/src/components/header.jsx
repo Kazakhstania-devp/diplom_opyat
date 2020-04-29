@@ -12,9 +12,9 @@ function Header (props){
             <ul className = "header__menu">
                 <li className = "menu__item"><a href = "#">Home</a></li>
                 <li className = "menu__item"><a href = "#">New</a></li>
-                <li className = "menu__item">Movies</li>
-                <li className = "menu__item">Anime</li>
-                <li className = "menu__item">My list</li>
+                <li className = "menu__item"><a href = "#">Movies</a></li>
+                <li className = "menu__item"><a href = "#">Anime</a></li>
+                <li className = "menu__item"><a href = "#">My list</a></li>
             </ul>
         </header>
     )
