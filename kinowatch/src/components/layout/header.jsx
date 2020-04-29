@@ -1,5 +1,6 @@
 import React from 'react';
 import  Logo from '../../images/KinoWatch.png'
+import Search from '../searchBar/search.jsx'
 
 
 
@@ -16,7 +17,7 @@ function Header (props){
                 <li className = "menu__item"><a href = "#">Anime</a></li>
                 <li className = "menu__item"><a href = "#">My list</a></li>
             </ul>
-
+            <Search/>
         </header>
     )
 }
