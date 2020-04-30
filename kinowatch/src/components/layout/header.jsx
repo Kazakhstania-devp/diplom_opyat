@@ -1,5 +1,5 @@
 import React from 'react';
-import {  BrowserRouter as Router ,Switch, Route, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import  Logo from '../../images/KinoWatch.png';
 import Search from '../searchBar/search.jsx';
 import  '../route/route.jsx';
