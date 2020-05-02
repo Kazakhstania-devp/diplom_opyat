@@ -10,5 +10,5 @@ const api = createAPI(() => history.push(routeConfig.INDEX));
 export const Operation = {
     fetchMovies: () => {
         return api.get(ApiEndpoint.GET_MOVIE_LIST)
-      },
+      }
 };
