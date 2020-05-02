@@ -2,13 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import {App} from './App';
-import routes from './routes'
+import routes from './routes';
 import {BrowserRouter as Router} from "react-router-dom";
 import {createStore, applyMiddleware} from 'redux';
-import history from './history';
 
 // Store & Api
-import createSagaMiddleware from 'redux-saga'
+import createSagaMiddleware from 'redux-saga';
 import rootReducer from './store/reducers';
 import sagaWatcher from './sagas/sagas';
 import {ActionType} from './store/action-types';

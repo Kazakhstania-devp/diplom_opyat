@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Header from './components/layout/header.jsx'
+import Header from './components/layout/header'
 
 export const App = ({ children }) => {  
   return (
