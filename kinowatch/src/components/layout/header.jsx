@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import  Logo from '../../images/KinoWatch.png';
 import Search from '../searchBar/search.jsx';
-import  '../route/route.jsx';
+import  '../../config/routes.jsx';
 
 function Header (props){
     return(

@@ -1,4 +1,4 @@
-export const routeConfig = {
+export const RouteConfig = {
     INDEX: "/",
     ANIME: "/Anime",
     NEW: "/New",
