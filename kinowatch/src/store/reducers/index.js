@@ -2,7 +2,7 @@ import {ActionType} from '../action-types';
 
 const initialState = {
     error: '',
-    features: [],
+    movieList: [],
 };
 
 export default function appReducer(state, action) {
