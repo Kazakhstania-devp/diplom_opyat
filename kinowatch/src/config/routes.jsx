@@ -1,5 +1,5 @@
 const Route = {
-    INDEX = '/',
+    INDEX: '/'
   }
   
   export default Route;

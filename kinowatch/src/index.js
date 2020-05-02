@@ -4,7 +4,7 @@ import './index.css';
 import {App} from './App';
 import * as serviceWorker from './serviceWorker';
 import routes from './components/route/route'
-import {  BrowserRouter as Router} from "react-router-dom";
+import {BrowserRouter as Router, RouteConfig} from "react-router-dom";
 import {createStore, applyMiddleware} from 'redux';
 import history from './history';
 
@@ -12,19 +12,14 @@ import history from './history';
 import createSagaMiddleware from 'redux-saga'
 import rootReducer from './store/reducers';
 import sagaWatcher from './sagas/sagas';
-import {ActionType} from './store//action-types';
+import {ActionType} from './store/action-types';
 
 // Components
 
-
 const sagaMiddleware  = createSagaMiddleware();
-
 const store = createStore(rootReducer, applyMiddleware(sagaMiddleware));
-
 sagaMiddleware.run(sagaWatcher);
-
 const action = type => store.dispatch({type});
-
 action(ActionType.FETCH_INITIAL_DATA);
 
 
