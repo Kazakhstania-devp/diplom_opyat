@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import routes from './components/route/route'
 import {  BrowserRouter as Router} from "react-router-dom";
 import {createStore, applyMiddleware} from 'redux';
+import history from './history';
 
 // Store & Api
 import createSagaMiddleware from 'redux-saga'
@@ -29,7 +30,7 @@ action(ActionType.FETCH_INITIAL_DATA);
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router {...{history}}>
       {routes}
     </Router>
   </React.StrictMode>,

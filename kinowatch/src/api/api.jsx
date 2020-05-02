@@ -1,8 +1,8 @@
 import axios, {AxiosInstance} from 'axios'; // eslint-disable-line
 
 import {ApiEndpoint} from '../../config/api-endpoints';
-import StatusCode from '../config/status-codes';
-import RouteConfig from '../../config/routes';
+import {StatusCode} from '../config/status-codes';
+import {RouteConfig} from '../../config/routes';
 
 
 export const createAPI = (onLoginFail = null) => {

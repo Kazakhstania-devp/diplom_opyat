@@ -1,6 +1,6 @@
 import { call, put, all, takeLatest, select } from 'redux-saga/effects';
-import {ActionType} from '../store/action-types';
-import {Operation} from '../api/operations';
+import {ActionType} from '../store/action-types.jsx';
+import {Operation} from '../api/operations.jsx';
 
 function* fetchInitialData() {
   try {
