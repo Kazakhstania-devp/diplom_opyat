@@ -18,33 +18,33 @@ export default(
 <Switch>
     <Route
     exact = {true}
-    path="/"
+    path={routeConfig.INDEX}
     component = {WrappedComponent(HomePage)}
     />
     <Route
     exact = {true}
-    path="/Home"
+    path={routeConfig.HOME}
     component = {WrappedComponent(HomePage)}
     />
    
     <Route 
     exact = {true}
-    path="/New"
+    path={routeConfig.NEW}
     component = {WrappedComponent(NewPage)}
     />
     <Route
     exact = {true}
-    path="/Movies"
+    path={routeConfig.MOVIES}
     component = {WrappedComponent(MoviesPage)}
     />
     <Route 
     exact = {true} 
-    path="/Anime"
+    path={routeConfig.ANIME}
     component = {WrappedComponent(AnimePage)}
     />
     <Route
     exact = {true} 
-    path="/ListPage"
+    path={routeConfig.LIST}
     component = {WrappedComponent(ListPage)}
     />
 </Switch>

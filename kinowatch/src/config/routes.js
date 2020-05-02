@@ -1,8 +1,9 @@
-export const routeConfig = {
+const routeConfig = {
     INDEX: "/",
     ANIME: "/Anime",
     NEW: "/New",
-    LIST: "/List",
+    LIST: "/ListPage",
     HOME: "/Home",
     MOVIES: "/Movies"
 }
+export default routeConfig;
