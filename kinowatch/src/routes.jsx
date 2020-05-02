@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {  BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import {App} from '../App';
-import AnimePage from '../components/AnimePage/AnimePage';
-import NewPage from '../components/NewPage/NewPage';
-import MoviesPage from '../components/MoviesPage/MoviesPage';
-import ListPage from '../components/ListPage/ListPage';
-import HomePage from '../components/HomePage/HomePage';
+import {App} from './App';
+import AnimePage from './components/AnimePage/AnimePage';
+import NewPage from './components/NewPage/NewPage';
+import MoviesPage from './components/MoviesPage/MoviesPage';
+import ListPage from './components/ListPage/ListPage';
+import HomePage from './components/HomePage/HomePage';
 
 const WrappedComponent = (Component) => () =>(
     <App>
