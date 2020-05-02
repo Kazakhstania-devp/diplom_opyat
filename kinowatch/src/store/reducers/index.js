@@ -1,6 +1,17 @@
-import {combineReducers} from 'redux';
+import {ActionType} from '../action-types';
 
+const initialState = {
+    error: '',
+    features: [],
+};
 
-export default combineReducers({
-
-});
+export default function appReducer(state, action) {
+    switch (action.type) {
+    case ActionType.SET_MOVIE_LIST:
+      return {
+        ...state,
+        movieList: action.movies
+      }
+    default: return state;
+  }
+}
