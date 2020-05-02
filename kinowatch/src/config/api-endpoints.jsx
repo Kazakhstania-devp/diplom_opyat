@@ -1,6 +1,6 @@
 export const BASE_HOST = `./`;
 
-export default ApiEndpoint (
+export const ApiEndpoint = {
     BASE_URL = '/',
     GET_MOVIE = '../api/movies.json',
-)
+}

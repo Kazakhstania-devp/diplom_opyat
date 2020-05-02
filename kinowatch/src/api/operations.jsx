@@ -1,5 +1,4 @@
-import {ActionCreator} from '../store/actions';
-import {ApiEndpoint} from '../config/api-endpoints';
+import ApiEndpoint from '../config/api-endpoints';
 import {createAPI} from '../api/api';
 
 const api = createAPI(() => history.push(RouteConfig.INDEX));
