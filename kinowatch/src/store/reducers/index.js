@@ -1,4 +1,9 @@
 import {ActionType} from '../action-types';
+import {createStore, applyMiddleware, compose} from 'redux';
+
+const composeEnhancers = typeof window === 'undefined'
+    ? compose
+    : window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const initialState = {
     error: '',

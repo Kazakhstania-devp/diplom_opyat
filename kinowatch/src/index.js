@@ -4,7 +4,7 @@ import './index.css';
 import {App} from './App';
 import routes from './routes';
 import {BrowserRouter as Router} from "react-router-dom";
-import {createStore, applyMiddleware} from 'redux';
+import {createStore, applyMiddleware, compose} from 'redux';
 
 // Store & Api
 import createSagaMiddleware from 'redux-saga';
@@ -13,9 +13,13 @@ import sagaWatcher from './sagas/sagas';
 import {ActionType} from './store/action-types';
 
 // Components
+const composeEnhancers = typeof window === 'undefined' ? compose : window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const sagaMiddleware  = createSagaMiddleware();
-const store = createStore(rootReducer, applyMiddleware(sagaMiddleware));
+const store = createStore(
+  rootReducer,
+  composeEnhancers(applyMiddleware(sagaMiddleware)),
+);
 sagaMiddleware.run(sagaWatcher);
 const action = type => store.dispatch({type});
 action(ActionType.FETCH_INITIAL_DATA);
