@@ -1,14 +1,13 @@
 import { call, put, all, takeLatest, select } from 'redux-saga/effects';
 import {ActionType} from '../store/action-types';
 import {Operation} from '../api/operations';
+import {ActionCreator} from '../store/actions';
 
 function* fetchInitialData() {
   try {
-    const [profile, music] = yield all([call(Operation.fetchProfile), call(Operation.fetchMusic)]);
+    const movies = yield call(Operation.fetchMovies);
 
-    yield all([
-     
-    ]);
+    yield ActionCreator.setMovieList(movies);
 
   } catch (e) {}
 }
