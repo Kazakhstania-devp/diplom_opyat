@@ -4,7 +4,7 @@ import './index.css';
 import {App} from './App';
 import * as serviceWorker from './serviceWorker';
 import routes from './components/route/route'
-import {BrowserRouter as Router, RouteConfig} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 import {createStore, applyMiddleware} from 'redux';
 import history from './history';
 
@@ -25,7 +25,7 @@ action(ActionType.FETCH_INITIAL_DATA);
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router {...{history}}>
+    <Router>
       {routes}
     </Router>
   </React.StrictMode>,
