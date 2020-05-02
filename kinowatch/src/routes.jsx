@@ -6,6 +6,7 @@ import NewPage from './components/NewPage/NewPage';
 import MoviesPage from './components/MoviesPage/MoviesPage';
 import ListPage from './components/ListPage/ListPage';
 import HomePage from './components/HomePage/HomePage';
+import routeConfig from './config/routes';
 
 const WrappedComponent = (Component) => () =>(
     <App>

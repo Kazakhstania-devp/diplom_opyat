@@ -1,7 +1,7 @@
 import axios, {AxiosInstance} from 'axios'; // eslint-disable-line
 
 import {StatusCode} from '../config/status-codes';
-import {RouteConfig} from '../config/routes';
+import {routeConfig} from '../config/routes';
 import {ApiEndpoint} from '../config/api-endpoints';
 
 export const createAPI = (onLoginFail = null) => {
@@ -13,7 +13,7 @@ export const createAPI = (onLoginFail = null) => {
   
     const onFail = (err) => {
       if (err.response.request &&
-        err.response.request.responseURL.indexOf(RouteConfig.SIGN_IN) === -1 &&
+        err.response.request.responseURL.indexOf(routeConfig.SIGN_IN) === -1 &&
         err.response.status === StatusCode.FORBIDDEN) {
         if(onLoginFail) onLoginFail();
       }
