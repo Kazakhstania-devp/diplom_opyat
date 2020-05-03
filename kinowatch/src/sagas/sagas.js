@@ -6,8 +6,7 @@ import {ActionCreator} from '../store/actions';
 function* fetchInitialData() {
   try {
     const movies = yield call(Operation.fetchMovies);
-    yield put(ActionCreator.setMovieList(movies));
-
+    yield put(ActionCreator.setMovieList(movies.data));
   } catch (e) {}
 }
 
