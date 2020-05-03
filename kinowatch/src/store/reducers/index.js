@@ -6,12 +6,11 @@ const initialState = {
 };
 
 export default function appReducer(state = initialState, action) {
-  console.log(state);
     switch (action.type) {
     case ActionType.SET_MOVIE_LIST:
       return {
         ...state,
-        movieList: action.movies
+        movieList: action.payload
       }
     default: return state;
   }
