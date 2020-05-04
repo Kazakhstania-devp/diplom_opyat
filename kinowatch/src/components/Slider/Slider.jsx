@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 
 var settings = {
+    arrows: true,
     dots: true,
     infinite: true,
     speed: 500,
@@ -13,40 +14,52 @@ function Slick (){
     return(
         <Slider {...settings}>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
+        <h1>Home</h1>
         <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
         <div>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
+        <h1>Home</h1>
+            <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
         </div>
       </Slider>
     )
