@@ -6,7 +6,7 @@ import routes from './routes';
 import {BrowserRouter as Router} from "react-router-dom";
 import {createStore, applyMiddleware, compose} from 'redux';
 import {Provider} from 'react-redux';
-
+import '@brainhubeu/react-carousel/lib/style.css';
 // Store & Api
 import createSagaMiddleware from 'redux-saga';
 import rootReducer from './store/reducers';
@@ -27,11 +27,13 @@ action(ActionType.FETCH_INITIAL_DATA);
 
 
 ReactDOM.render(
+  <React.StrictMode>
     <Provider store={store}>
     <Router>
       {routes}
     </Router>
-    </Provider>,
+    </Provider>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

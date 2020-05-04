@@ -1,68 +1,25 @@
 import React from 'react';
-import Slider from "react-slick";
+import Carousel from '@brainhubeu/react-carousel';
 import {useSelector} from 'react-redux';
-var settings = {
-    arrows: true,
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 2
-  };
+
 
 function Slick (){
   const movies = useSelector((state) => state.movieList);
     return(
-        <Slider {...settings}>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-        <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-        <div>
-        <h1>Home</h1>
-            <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=IPaddress.net"></img>
-        </div>
-      </Slider>
+      <Carousel lidesPerPage={5}
+      slidesPerScroll={2}
+      animationSpeed={1500}
+      stopAutoPlayOnHover
+      offset={50}
+      itemWidth={280}
+      itemHeight={180}
+      clickToChange
+      centered
+      rtl>
+        {movies.map(item => (
+        <img key={item.id} src={item.Images}/>
+      ))}
+      </Carousel>
     )
 }
 export default Slick;
