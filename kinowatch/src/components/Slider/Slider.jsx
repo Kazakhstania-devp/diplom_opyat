@@ -11,8 +11,7 @@ var settings = {
   };
 
 function Slick (){
-  const movies = useSelector((state) => state.moviesList);
-  console.log(movies);
+  const movies = useSelector((state) => state.movieList);
     return(
         <Slider {...settings}>
         <div>
