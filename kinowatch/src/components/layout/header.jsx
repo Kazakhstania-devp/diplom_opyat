@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import  Logo from '../../images/KinoWatch.png';
-import Search from '../searchBar/search';
+import Search from '../searchBar/Search';
 import  '../../routes';
 
 function Header (props){
