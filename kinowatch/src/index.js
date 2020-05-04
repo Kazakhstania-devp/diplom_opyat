@@ -5,7 +5,6 @@ import {App} from './App';
 import routes from './routes';
 import {BrowserRouter as Router} from "react-router-dom";
 import {createStore, applyMiddleware, compose} from 'redux';
-
 // Store & Api
 import createSagaMiddleware from 'redux-saga';
 import rootReducer from './store/reducers';

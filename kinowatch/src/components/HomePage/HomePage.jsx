@@ -1,6 +1,8 @@
 import React from 'react';
-
+import Slick from '../Slider/Slider'
 function HomePage(){
-    return <h1>Home</h1>
+    return (
+        <Slick/>
+    )
 }
 export default HomePage;
