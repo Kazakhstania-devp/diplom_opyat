@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
-
+import {useSelector} from 'react-redux';
 var settings = {
     arrows: true,
     dots: true,
@@ -11,6 +11,8 @@ var settings = {
   };
 
 function Slick (){
+  const movies = useSelector((state) => state.moviesList);
+  console.log(movies);
     return(
         <Slider {...settings}>
         <div>
