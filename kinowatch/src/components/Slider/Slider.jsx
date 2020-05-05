@@ -14,7 +14,6 @@ function Slick (){
       arrows
       infinite
       clickToChange
-      centered
       >
         {movies.map(item => (
           <div className="carouselItem">
