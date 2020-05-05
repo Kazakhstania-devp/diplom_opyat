@@ -6,12 +6,20 @@ import {useSelector} from 'react-redux';
 function Slick (){
   const movies = useSelector((state) => state.movieList);
     return(
+      
       <Carousel 
-      lidesPerPage={2}
-      itemWidth={500}
+      slidesPerPage={6}
+      slidesPerScroll={2}
+      offset={50}
+      arrows
+      infinite
+      clickToChange
+      centered
       >
         {movies.map(item => (
-        <img key={item.id} src={item.Images}/>
+          <div className="carouselItem">
+            <img  key={item.id} src={item.Images[1]}/>
+          </div>
       ))}
       </Carousel>
     )
