@@ -3,10 +3,11 @@ import Carousel from '@brainhubeu/react-carousel';
 import {useSelector} from 'react-redux';
 
 
-function Slick (){
+function Slick (props){
   const movies = useSelector((state) => state.movieList);
     return(
-      
+      <div>
+      <div>{props.name}</div>
       <Carousel 
       slidesPerPage={6}
       slidesPerScroll={2}
@@ -21,6 +22,7 @@ function Slick (){
           </div>
       ))}
       </Carousel>
+      </div>
     )
 }
 export default Slick;
