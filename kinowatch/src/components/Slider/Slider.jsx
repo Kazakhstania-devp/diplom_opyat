@@ -17,7 +17,9 @@ function Slick (props){
       >
         {movies.map(item => (
           <div className="carouselItem">
-            <img  key={item.id} src={item.Images[1]}/>
+            <div className="carousel--title">{item.Title}</div>
+
+            <img className="carousel--image" key={item.id} src={item.Images[1]}/>
           </div>
       ))}
       </Carousel>

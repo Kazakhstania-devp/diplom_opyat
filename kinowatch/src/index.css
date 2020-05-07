@@ -53,7 +53,7 @@ a{
   height: 160px;
   overflow: hidden;
 }
-.carouselItem img{
+.carousel--image{
   min-width: 100%;
   min-height: 100%;
    width: 320px;
@@ -81,6 +81,7 @@ left: 0;
   background: linear-gradient(270deg, #141414 31.6%, #FF0000 100%);
 }
 .carouselItem{
+  position: relative;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -107,4 +108,11 @@ body{
 }
 .slider__inner{
   margin-top: 50px;
+}
+
+.carousel--title{
+  position: absolute;
+  bottom: 0;
+  color: #FFFFFF;
+  text-shadow:  1px 1px 2px black;
 }
