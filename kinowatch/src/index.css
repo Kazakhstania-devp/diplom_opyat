@@ -77,6 +77,9 @@ a{
 .BrainhubCarousel__arrowLeft{
 left: 0;
 }
+.BrainhubCarousel__arrowLeft:hover{
+  background: linear-gradient(270deg, #141414 31.6%, #FF0000 100%);
+}
 .carouselItem{
   margin-left: 10px;
   margin-right: 10px;
