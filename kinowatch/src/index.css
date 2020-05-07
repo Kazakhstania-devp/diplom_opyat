@@ -81,6 +81,7 @@ left: 0;
   background: linear-gradient(270deg, #141414 31.6%, #FF0000 100%);
 }
 .carouselItem{
+  cursor: pointer;
   position: relative;
   margin-left: 10px;
   margin-right: 10px;
@@ -111,6 +112,7 @@ body{
 }
 
 .carousel--title{
+  
   position: absolute;
   bottom: 0;
   color: #FFFFFF;
