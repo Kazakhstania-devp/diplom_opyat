@@ -71,7 +71,7 @@ a{
   background: linear-gradient(270deg, #141414 24.31%, #141414 44.38%);
 }
 .BrainhubCarousel__arrowRight:hover{
-  background: linear-gradient(90deg, #141414 31.6%, #767676 100%);
+  background: linear-gradient(90deg, #141414 31.6%, #FF0000 100%);
 
 }
 .BrainhubCarousel__arrowLeft{
