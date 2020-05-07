@@ -68,11 +68,13 @@ a{
   width: 60px;
   z-index: 1;
   opacity: .7; 
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 24.31%, rgba(0, 0, 0, 0) 44.38%);
+  background: linear-gradient(270deg, #141414 24.31%, #141414 44.38%);
 }
+.BrainhubCarousel__arrowRight:hover{
+  background: linear-gradient(90deg, #141414 31.6%, #FF0000 100%);
 
+}
 .BrainhubCarousel__arrowLeft{
-
 left: 0;
 }
 .BrainhubCarousel__arrowLeft:hover{
