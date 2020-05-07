@@ -10,7 +10,7 @@ function Slick (props){
       <div className="slider__head">{props.name} ></div>
       <Carousel 
       slidesPerPage={7}
-      slidesPerScroll={2}
+      slidesPerScroll={1}
       offset={60}
       arrows
       infinite

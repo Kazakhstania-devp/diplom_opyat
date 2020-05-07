@@ -68,13 +68,16 @@ a{
   width: 60px;
   z-index: 1;
   opacity: .7; 
-  background: linear-gradient(270deg, rgba(0, 0, 0,1) 24.31%, rgba(0, 0, 0, 0) 44.38%);
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 24.31%, rgba(0, 0, 0, 0) 44.38%);
 }
 .BrainhubCarousel__arrowRight:hover{
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 30.25%, rgba(0, 0, 0, 0) 48.62%);
-
+  background: linear-gradient(90deg, rgba(20, 20, 20, 1) 30.25%, rgba(0, 0, 0, 0) 48.62%);
+}
+.BrainhubCarousel__arrowLeft:hover{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 48.62%, rgba(20, 20, 20, 1) 30.25%);
 }
 .BrainhubCarousel__arrowLeft{
+
 left: 0;
 }
 .carouselItem{
@@ -100,7 +103,7 @@ left: 0;
 }
 
 body{
-  background: #000;
+  background: #141414;
 }
 .slider__inner{
   margin-top: 50px;
