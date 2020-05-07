@@ -6,7 +6,7 @@ import  '../../routes';
 
 function Header (props){
     return(
-        <header className = "header__app header"> 
+        <header className = "header__app header block__inner"> 
             <Link to="/Home" className="header__logo">
                 <img src={Logo} />
             </Link>

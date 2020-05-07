@@ -6,15 +6,14 @@ import {useSelector} from 'react-redux';
 function Slick (props){
   const movies = useSelector((state) => state.movieList);
     return(
-      <div>
-      <div>{props.name}</div>
+      <div className="block__inner slider__inner">
+      <div className="slider__head">{props.name} ></div>
       <Carousel 
-      slidesPerPage={6}
+      slidesPerPage={7}
       slidesPerScroll={2}
-      offset={50}
+      offset={60}
       arrows
       infinite
-      clickToChange
       >
         {movies.map(item => (
           <div className="carouselItem">

@@ -23,9 +23,12 @@ ul{
   display: flex;
   background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.69) 204.06%, rgba(20, 20, 20, 0) 212%);
   align-items: center;
-padding-left: 70px;
-padding-right: 70px;
 
+
+}
+.block__inner{
+  padding-left: 70px;
+padding-right: 70px;
 }
 .header__menu{
   display: flex;
@@ -46,14 +49,59 @@ a{
 }
 .carouselItem{
   display: inline-block;
-  min-width: 345px;
+  min-width:280px;
   height: 160px;
   overflow: hidden;
 }
 .carouselItem img{
   min-width: 100%;
   min-height: 100%;
-   width: 350px;
+   width: 320px;
    object-fit: cover;
 }
+.BrainhubCarousel{
+  transition: .5s;
+}
+.BrainhubCarousel__arrows{
+  height: 160px;
+  position: absolute;
+  width: 60px;
+  z-index: 1;
+  opacity: .7; 
+  background: linear-gradient(270deg, rgba(0, 0, 0,1) 24.31%, rgba(0, 0, 0, 0) 44.38%);
+}
+.BrainhubCarousel__arrowRight:hover{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 30.25%, rgba(0, 0, 0, 0) 48.62%);
 
+}
+.BrainhubCarousel__arrowLeft{
+left: 0;
+}
+.carouselItem{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.BrainhubCarousel__arrowRight{
+  right: 0;
+}
+.slider__head{
+  cursor: pointer;
+  color: #fff;
+  position: relative;
+  text-align: left;
+  font-size: 29px;
+  line-height: 43px;  
+  border-bottom: 1px solid #fff;
+  margin-bottom: 15px;
+  transition: .5s
+}
+.slider__head:hover{
+  color: red;
+}
+
+body{
+  background: #000;
+}
+.slider__inner{
+  margin-top: 50px;
+}
