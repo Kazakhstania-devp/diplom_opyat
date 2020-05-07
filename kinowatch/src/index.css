@@ -70,15 +70,13 @@ a{
   opacity: .7; 
   background: linear-gradient(270deg, rgba(0, 0, 0, 0) 24.31%, rgba(0, 0, 0, 0) 44.38%);
 }
-.BrainhubCarousel__arrowRight:hover{
-  background: linear-gradient(90deg, rgba(20, 20, 20, 1) 30.25%, rgba(0, 0, 0, 0) 48.62%);
-}
-.BrainhubCarousel__arrowLeft:hover{
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 48.62%, rgba(20, 20, 20, 1) 30.25%);
-}
+
 .BrainhubCarousel__arrowLeft{
 
 left: 0;
+}
+.BrainhubCarousel__arrowLeft:hover{
+  background: linear-gradient(270deg, #141414 31.6%, #FF0000 100%);
 }
 .carouselItem{
   margin-left: 10px;
