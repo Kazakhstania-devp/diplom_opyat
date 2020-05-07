@@ -22,7 +22,7 @@ ul{
 .header__app{
   display: flex;
   background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.69) 204.06%, rgba(20, 20, 20, 0) 212%);
-  align-items: center;
+  align-items: center; 
 
 
 }
@@ -100,7 +100,7 @@ left: 0;
 }
 
 body{
-  background: #000;
+  background: #141414;
 }
 .slider__inner{
   margin-top: 50px;
