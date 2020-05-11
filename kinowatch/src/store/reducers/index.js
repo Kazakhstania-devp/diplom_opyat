@@ -3,6 +3,8 @@ import {ActionType} from '../action-types';
 const initialState = {
     error: '',
     movieList: [],
+    animeList: [],
+    newList: [],
 };
 
 export default function appReducer(state = initialState, action) {
@@ -11,6 +13,16 @@ export default function appReducer(state = initialState, action) {
       return {
         ...state,
         movieList: action.payload
+      }
+    case ActionType.SET_ANIME_LIST:
+      return{
+        ...state,
+        animeList: action.payload
+      }
+    case ActionType.SET_NEW_LIST:
+      return{
+        ...state,
+        newList: action.payload
       }
     default: return state;
   }

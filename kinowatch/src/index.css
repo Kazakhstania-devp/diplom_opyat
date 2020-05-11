@@ -57,7 +57,7 @@ a{
 .carousel--image{
   min-width: 100%;
   min-height: 100%;
-   width: 320px;
+   width: 270px;
    border-radius: 3px;
    object-fit: cover;
 }

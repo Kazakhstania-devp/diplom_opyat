@@ -10,5 +10,11 @@ const api = createAPI(() => history.push(routeConfig.INDEX));
 export const Operation = {
     fetchMovies: () => {
         return api.get(ApiEndpoint.GET_MOVIE_LIST)
-      }
+      },
+    fetchAnime: () => {
+      return api.get(ApiEndpoint.GET_ANIME_LIST)
+      },
+    fetchNew: () => {
+      return api.get(ApiEndpoint.GET_NEW_LIST)
+      }  
 };
