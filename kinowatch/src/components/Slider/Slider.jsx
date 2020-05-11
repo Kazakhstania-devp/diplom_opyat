@@ -19,7 +19,7 @@ function Slick (props){
           <div className="carouselItem">
             <div className="carousel--title">{item.Title}</div>
 
-            <img className="carousel--image" key={item.id} src={item.Images[1]}/>
+            <img className="carousel--image" key={item.id} src={item.Poster[1]}/>
           </div>
       ))}
       </Carousel>
