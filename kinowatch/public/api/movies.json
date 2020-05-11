@@ -1,5 +1,6 @@
 [
     {
+      "Id": 0,
       "Title": "Avatar",
       "Year": "2009",
       "Rated": "PG-13",
@@ -15,7 +16,7 @@
       "Awards": "Won 3 Oscars. Another 80 wins & 121 nominations.",
       "Poster": "http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
       "Metascore": "83",
-      "imdbRating": "7.9",
+      "imdbRating": "7.9", 
       "imdbVotes": "890,617",
       "imdbID": "tt0499549",
       "Type": "movie",
@@ -29,6 +30,7 @@
       ]
     },
     {
+      "Id": 1,
       "Title": "I Am Legend",
       "Year": "2007",
       "Rated": "PG-13",
@@ -57,6 +59,7 @@
       ]
     },
     {
+      "Id": 2,
       "Title": "300",
       "Year": "2006",
       "Rated": "R",
@@ -84,6 +87,7 @@
       ]
     },
     {
+      "Id": 3,
       "Title": "The Avengers",
       "Year": "2012",
       "Rated": "PG-13",
@@ -113,6 +117,7 @@
       ]
     },
     {
+      "Id": 4,
       "Title": "The Wolf of Wall Street",
       "Year": "2013",
       "Rated": "R",
@@ -142,6 +147,7 @@
       ]
     },
     {
+      "Id": 5,
       "Title": "Interstellar",
       "Year": "2014",
       "Rated": "PG-13",
@@ -171,36 +177,7 @@
       ]
     },
     {
-      "Title": "Game of Thrones",
-      "Year": "2011–",
-      "Rated": "TV-MA",
-      "Released": "17 Apr 2011",
-      "Runtime": "56 min",
-      "Genre": "Adventure, Drama, Fantasy",
-      "Director": "N/A",
-      "Writer": "David Benioff, D.B. Weiss",
-      "Actors": "Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington",
-      "Plot": "While a civil war brews between several noble families in Westeros, the children of the former rulers of the land attempt to rise up to power. Meanwhile a forgotten race, bent on destruction, plans to return after thousands of years in the North.",
-      "Language": "English",
-      "Country": "USA, UK",
-      "Awards": "Won 1 Golden Globe. Another 185 wins & 334 nominations.",
-      "Poster": "http://ia.media-imdb.com/images/M/MV5BMjM5OTQ1MTY5Nl5BMl5BanBnXkFtZTgwMjM3NzMxODE@._V1_SX300.jpg",
-      "Metascore": "N/A",
-      "imdbRating": "9.5",
-      "imdbVotes": "1,046,830",
-      "imdbID": "tt0944947",
-      "Type": "series",
-      "totalSeasons": "7",
-      "Response": "True",
-      "Images": [
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc1MGUyNzItNWRkOC00MjM1LWJjNjMtZTZlYWIxMGRmYzVlXkEyXkFqcGdeQXVyMzU3MDEyNjk@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BZjZkN2M5ODgtMjQ2OC00ZjAxLWE1MjMtZDE0OTNmNGM0NWEwXkEyXkFqcGdeQXVyNjUxNzgwNTE@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMDk4Y2Y1MDAtNGVmMC00ZTlhLTlmMmQtYjcyN2VkNzUzZjg2XkEyXkFqcGdeQXVyNjUxNzgwNTE@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BNjZjNWIzMzQtZWZjYy00ZTkwLWJiMTYtOWRkZDBhNWJhY2JmXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BNTMyMTRjZWEtM2UxMS00ZjU5LWIxMTYtZDA5YmJhZmRjYTc4XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
-      ]
-    },
-    {
+      "Id": 6,
       "Title": "Vikings",
       "Year": "2013–",
       "Rated": "TV-14",
@@ -231,6 +208,7 @@
       ]
     },
     {
+      "Id": 7,
       "Title": "Gotham",
       "Year": "2014–",
       "Rated": "TV-14",
@@ -261,6 +239,7 @@
       ]
     },
     {
+      "Id": 8,
       "Title": "Power",
       "Year": "2014–",
       "Rated": "TV-MA",
@@ -291,6 +270,7 @@
       ]
     },
     {
+      "Id": 9,
       "Title": "Narcos",
       "Year": "2015–",
       "Rated": "TV-MA",
@@ -321,6 +301,7 @@
       ]
     },
     {
+      "Id": 10,
       "Title": "Breaking Bad",
       "Year": "2008–2013",
       "Rated": "TV-14",
@@ -351,7 +332,7 @@
       ]
     },
     {
-      "ComingSoon": true,
+      "Id": 11,
       "Title": "Doctor Strange",
       "Year": "2016",
       "Rated": "N/A",
@@ -379,7 +360,7 @@
       ]
     },
     {
-      "ComingSoon": true,
+      "Id": 12,
       "Title": "Rogue One: A Star Wars Story",
       "Year": "2016",
       "Rated": "N/A",
@@ -409,6 +390,7 @@
       ]
     },
     {
+      "Id": 13,
       "ComingSoon": true,
       "Title": "Assassin's Creed",
       "Year": "2016",
@@ -438,6 +420,7 @@
       ]
     },
     {
+      "Id": 14,
       "ComingSoon": true,
       "Title": "Luke Cage",
       "Year": "2016–",
@@ -452,7 +435,7 @@
       "Language": "English",
       "Country": "USA",
       "Awards": "N/A",
-      "Poster": "http://ia.media-imdb.com/images/M/MV5BMTcyMzc1MjI5MF5BMl5BanBnXkFtZTgwMzE4ODY2OTE@._V1_SX300.jpg",
+      "Poster": "https://static2.cbrimages.com/wordpress/wp-content/uploads/2016/09/luke-cage-header.jpg",
       "Metascore": "N/A",
       "imdbRating": "N/A",
       "imdbVotes": "N/A",
@@ -466,6 +449,65 @@
         "https://images-na.ssl-images-amazon.com/images/M/MV5BOTYzOTQyNDYxNl5BMl5BanBnXkFtZTgwNzA1NDU4OTE@._V1_SY1000_CR0,0,1498,1000_AL_.jpg",
         "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxMjA3MTQ5Ml5BMl5BanBnXkFtZTgwOTA1NDU4OTE@._V1_SY1000_CR0,0,1498,1000_AL_.jpg",
         "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMyNjg5ODYwNF5BMl5BanBnXkFtZTgwMTE1NDU4OTE@._V1_SY1000_CR0,0,1477,1000_AL_.jpg"
+      ]
+    },
+    {
+      "Id": 15,
+      "Title": "Game of Thrones",
+      "Year": "2011–",
+      "Rated": "TV-MA",
+      "Released": "17 Apr 2011",
+      "Runtime": "56 min",
+      "Genre": "Adventure, Drama, Fantasy",
+      "Director": "N/A",
+      "Writer": "David Benioff, D.B. Weiss",
+      "Actors": "Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington",
+      "Plot": "While a civil war brews between several noble families in Westeros, the children of the former rulers of the land attempt to rise up to power. Meanwhile a forgotten race, bent on destruction, plans to return after thousands of years in the North.",
+      "Language": "English",
+      "Country": "USA, UK",
+      "Awards": "Won 1 Golden Globe. Another 185 wins & 334 nominations.",
+      "Poster": "https://cdn3.tvweb.com/i/article/Qm8kNDEdNW814iyvCVbRz8hoFGrGFo/1200:100/Game-Of-Thrones-Season-7-Movie-Theater-Marathon.jpg",
+      "Metascore": "N/A",
+      "imdbRating": "9.5",
+      "imdbVotes": "1,046,830",
+      "imdbID": "tt0944947",
+      "Type": "series",
+      "totalSeasons": "7",
+      "Response": "True",
+      "Images": [
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc1MGUyNzItNWRkOC00MjM1LWJjNjMtZTZlYWIxMGRmYzVlXkEyXkFqcGdeQXVyMzU3MDEyNjk@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BZjZkN2M5ODgtMjQ2OC00ZjAxLWE1MjMtZDE0OTNmNGM0NWEwXkEyXkFqcGdeQXVyNjUxNzgwNTE@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMDk4Y2Y1MDAtNGVmMC00ZTlhLTlmMmQtYjcyN2VkNzUzZjg2XkEyXkFqcGdeQXVyNjUxNzgwNTE@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BNjZjNWIzMzQtZWZjYy00ZTkwLWJiMTYtOWRkZDBhNWJhY2JmXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BNTMyMTRjZWEtM2UxMS00ZjU5LWIxMTYtZDA5YmJhZmRjYTc4XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
+      ]
+    },
+    {
+      "Id": 16,
+      "Title": "Spider-Man: Into the Spider-Verse 2",
+      "Year": "2022",
+      "Rated": "N/A",
+      "Released": "07 Oct 2022",
+      "Runtime": "N/A",
+      "Genre": "Action, Adventure, Fantasy",
+      "Director": "Joaquim Dos Santos",
+      "Writer": "Dave Callaham, Stan Lee",
+      "Actors": "Shameik Moore",
+      "Plot": "N/A",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "N/A",
+      "Poster": "https://pbs.twimg.com/media/EIV9Y9QW4AAacUJ.jpg",
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt1211837",
+      "Type": "movie",
+      "Response": "True",
+      "Images": [
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM3ODc1ODI5Ml5BMl5BanBnXkFtZTgwODMzMDY3OTE@._V1_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxNTAyNTU0NV5BMl5BanBnXkFtZTgwNzMzMDY3OTE@._V1_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE5NDc5NzUwNV5BMl5BanBnXkFtZTgwMDM3MDM2NzE@._V1_.jpg"
       ]
     }
   ]
