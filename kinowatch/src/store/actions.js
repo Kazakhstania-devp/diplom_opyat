@@ -7,9 +7,9 @@ export const ActionCreator = {
         type: ActionType.SET_MOVIE_LIST,
         payload: movies
       }),
-    setAnimeList: (anime) =>({
-      type: ActionType.SET_ANIME_LIST,
-      payload: anime
+    setRubricList: (rubric) =>({
+      type: ActionType.SET_RUBRIC_LIST,
+      payload: rubric
     }),
     setNewList: (newList) =>({
       type: ActionType.SET_NEW_LIST,
