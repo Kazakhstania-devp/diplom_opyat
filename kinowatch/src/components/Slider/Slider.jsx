@@ -24,5 +24,5 @@ function Slick (props){
       </Carousel>
       </div>
     )
-}
+} 
 export default Slick;

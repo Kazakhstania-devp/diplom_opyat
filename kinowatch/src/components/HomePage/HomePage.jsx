@@ -4,7 +4,7 @@ function HomePage(){
     return (
         <div>
         <Slick name="Popular"/>
-        <Slick name="Anime" genre="animeList"/>
+        <Slick name="Anime"/>
         </div>
     )
 }
