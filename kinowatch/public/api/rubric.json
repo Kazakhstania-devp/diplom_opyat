@@ -669,6 +669,62 @@
         "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE5NDc5NzUwNV5BMl5BanBnXkFtZTgwMDM3MDM2NzE@._V1_.jpg"
       ]
     }
+    ],
+    "new": [
+      {
+        "Id": 2,
+        "Title": "Код Гиас: Лелуш Воскресший",
+        "Type": "Фильм",
+        "Episodes": "1",
+        "Duration": "1 час 52 мин.",
+        "Status": "Вышло",
+        "Genres": "Экшен, Военное, Фантастика, Супер сила, Меха, Драма",
+        "Rating": "R-17",
+        "Studio": "Sunrise",
+        "Original": "N/A",
+        "Original author": "N/A",
+        "Producer": "Горо Танигути",
+        "Poster": "https://pm1.narvii.com/7225/eb41179c65e7a0936f0f95c677fa5f02fd175544r1-2048-1407v2_hq.jpg",
+        "Images": [
+          "https://moe.shikimori.one/system/screenshots/original/fa6b9e5bc72b91b1cc46fa80cc0bb1da5e2b114c.jpg?1579155598",
+          "https://dere.shikimori.one/system/screenshots/original/bcc9f69b10c431e45db24f59c5f9cc66065895d2.jpg?1579155599",
+          "https://dere.shikimori.one/system/screenshots/original/d6765f46d578b873a952186a0552b55e587f24de.jpg?1579155602",
+          "https://kawai.shikimori.one/system/screenshots/original/65dc56756bfe645aea029286b3c77844c1711e04.jpg?1579155604",
+          "https://desu.shikimori.one/system/screenshots/original/8f7408a8c9bc9064829286354b8e420ff7192c2f.jpg?1579155608",
+          "https://nyaa.shikimori.one/system/screenshots/original/0482d18b2ce6b8136ceb090a919b436ef0626234.jpg?1579155609",
+          "https://desu.shikimori.one/system/screenshots/original/2707e77f2b2e22b68195ac70e89358ad3e79b541.jpg?1579155613",
+          "https://moe.shikimori.one/system/screenshots/original/4d5562d14edd9efff987e6e3cb8d6916a58f9416.jpg?1579155615",
+          "https://kawai.shikimori.one/system/screenshots/original/fc978fd70b1b97b2fb1393e350ebbd472cf03461.jpg?1579155618"
+        ]
+      },
+      {
+        "Id": 16,
+        "Title": "Spider-Man: Into the Spider-Verse 2",
+        "Year": "2022",
+        "Rated": "N/A",
+        "Released": "07 Oct 2022",
+        "Runtime": "N/A",
+        "Genre": "Action, Adventure, Fantasy",
+        "Director": "Joaquim Dos Santos",
+        "Writer": "Dave Callaham, Stan Lee",
+        "Actors": "Shameik Moore",
+        "Plot": "N/A",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "https://pbs.twimg.com/media/EIV9Y9QW4AAacUJ.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "N/A",
+        "imdbVotes": "N/A",
+        "imdbID": "tt1211837",
+        "Type": "movie",
+        "Response": "True",
+        "Images": [
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM3ODc1ODI5Ml5BMl5BanBnXkFtZTgwODMzMDY3OTE@._V1_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxNTAyNTU0NV5BMl5BanBnXkFtZTgwNzMzMDY3OTE@._V1_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE5NDc5NzUwNV5BMl5BanBnXkFtZTgwMDM3MDM2NzE@._V1_.jpg"
+        ]
+      }
     ]
   } 
 
