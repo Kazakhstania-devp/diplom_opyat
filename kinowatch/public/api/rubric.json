@@ -1,4 +1,5 @@
-[
+{
+  "Anime":[
     {
       "Id": 0,
       "Title": "Госпожа Кагуя: в любви как на войне",
@@ -12,6 +13,7 @@
       "Original": "Госпожа Кагуя: в любви как на войне",
       "Original author": "Ака Акасака",
       "Producer": "Синъити Омата",
+      "Poster": "https://yandex.ru/images/_crpd/PCajy6242/40ac464hBaTL/140eGsh4pBZNdXA4_wSzSujkKmYFLfJ3FCmd7LXtibOKZ4CRKTVOnBKmsYyGz10I3p6DrxbNvpS0JwXLhJTFn5IdP_9cHSUWeVHRqE9ws1pN4e8jU",
       "Images": [
         "https://moe.shikimori.one/system/screenshots/original/922fa6c55eedcf4c8314bfed1db954ed257ef24f.png?1547307380",
         "https://kawai.shikimori.one/system/screenshots/original/68a0b5d65d227e7ccafd3f23c7679d25132f94fc.png?1547307445",
@@ -37,6 +39,7 @@
         "Original": "Госпожа Кагуя: в любви как на войне",
         "Original author": "Ака Акасака",
         "Producer": "Синъити Омата",
+        "Poster": "https://sun3-11.userapi.com/34Z2PFaiQFfZAoUpH8GP0L0esOLb2nOpZ-20ug/gxx-p7Ask8g.jpg",
         "Images": [
           "https://nyaa.shikimori.one/system/screenshots/original/9834595ac909bd85b6c0b032f310665594ffa99e.jpg?1588871966",
           "https://dere.shikimori.one/system/screenshots/original/66908c27e5d3aa09528b5a4561f25fb37cf0cb69.jpg?1588871967",
@@ -62,6 +65,7 @@
         "Original": "N/A",
         "Original author": "N/A",
         "Producer": "Горо Танигути",
+        "Poster": "https://pm1.narvii.com/7225/eb41179c65e7a0936f0f95c677fa5f02fd175544r1-2048-1407v2_hq.jpg",
         "Images": [
           "https://moe.shikimori.one/system/screenshots/original/fa6b9e5bc72b91b1cc46fa80cc0bb1da5e2b114c.jpg?1579155598",
           "https://dere.shikimori.one/system/screenshots/original/bcc9f69b10c431e45db24f59c5f9cc66065895d2.jpg?1579155599",
@@ -87,6 +91,7 @@
         "Original": "Ох уж этот экстрасенс Сайки Кусуо!",
         "Original author": "Сюити Асо",
         "Producer": "Хироаки Сакурай",
+        "Poster": "https://oxvo.ru/wp-content/uploads/2018/01/378586.jpg",
         "Images": [
           "https://kawai.shikimori.one/system/screenshots/original/6c73f0dd592217e86141f4768867c0342099f425.jpg?1468645087",
           "https://nyaa.shikimori.one/system/screenshots/original/d71dd8fd42901ffa16d231c7e00e6ddd7cf38a94.jpg?1468645092",
@@ -112,6 +117,7 @@
         "Original": "N/A",
         "Original author": "Кадзуки Накасима",
         "Producer": "Хироюки Имаиси",
+        "Poster": "https://yandex.ru/images/_crpd/PCajy7022/40ac464hBaTL/140eGsh4pBZNdXA4_wSzSujkKmYFLfJ3FCmd7LXtibOKZ4ChWUU-3GLmsbyG2t0d267zrwONyzS0J3CLtJFlj8J9P3_MjTV2aUE06Bog41pN4e8jUVhix2Rovfz0aGjg",
         "Images": [
           "https://nyaa.shikimori.one/system/screenshots/original/97cfa73f5f9092add62ecc812c3ed3ac9b438f59.jpg?1423529167",
           "https://moe.shikimori.one/system/screenshots/original/9afc3a8ca1496332b1ea1e37ec9890518e87ef5e.jpg?1423529169",
@@ -137,6 +143,7 @@
         "Original": "Вайолет Эвергарден",
         "Original author": "Кана Акацуки, Акико Такасэ",
         "Producer": "Харука Фудзита, Таити Исидатэ",
+        "Poster": "",
         "Images": [
           "https://dere.shikimori.one/system/screenshots/original/9ee05bba0ae7206c0af55661950dcd982a073458.jpg?1515601806",
           "https://kawai.shikimori.one/system/screenshots/original/674c184a1a067eafaf3996a2327dae6494c43626.jpg?1515601828",
@@ -149,5 +156,7 @@
           "https://kawai.shikimori.one/system/screenshots/original/5f95210bffcea7f4fde17427110356c9681b0eb1.jpg?1515602394"
         ]
       }
-    
-  ]
+    ]
+  }
+
+
