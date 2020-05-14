@@ -1,6 +1,6 @@
 {
-  "Anime":[
-    {
+  "Anime":{
+    
     "Name": "Anime",
     "List": [  
     {
@@ -159,11 +159,9 @@
           "https://kawai.shikimori.one/system/screenshots/original/5f95210bffcea7f4fde17427110356c9681b0eb1.jpg?1515602394"
         ]
       }
-    ]
-    }
-  ],
-  "Movies":[
-    {
+    ]  
+  },
+  "Movies":{
       "Name": "Movies",
       "List": [
       {
@@ -734,10 +732,9 @@
         ]
       }
       ]
-    }
-    ],
-    "Popular": [
-      {"Name": "Popular",
+  },
+  "Popular": {
+    "Name": "Popular",
       "List": [
         {
         "Id": 2,
@@ -791,8 +788,8 @@
             "https://moe.shikimori.one/system/screenshots/original/dabd4883e9befe5ad1a7ce6fec1e0c3e0cf6bb04.jpg?1588975437"
           ]
         }
-      ]}
-    ]
+      ]
+  }
   } 
 
 

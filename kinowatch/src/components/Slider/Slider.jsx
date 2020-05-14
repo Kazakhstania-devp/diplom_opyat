@@ -4,7 +4,6 @@ import {useSelector} from 'react-redux';
 
 
 function Slick (props){
-  const movies = useSelector((state) => state.movieList);
     return(
       <div className="block__inner slider__inner">
       <div className="slider__head">{props.name} ></div>
@@ -15,7 +14,7 @@ function Slick (props){
       arrows
       infinite
       >
-        {movies.map(item => (
+        {props.genre.map(item => (
           <div className="carouselItem">
             <div className="carousel--title">{item.Title}</div>
             <img className="carousel--image" key={item.ID} src={item.Poster}/>
