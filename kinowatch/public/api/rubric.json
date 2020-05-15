@@ -2,8 +2,9 @@
   "Anime":{
     
     "Name": "Anime",
-    "List": [  
-    {
+    "List":
+    [  
+      {
       "Id": 0,
       "Title": "Госпожа Кагуя: в любви как на войне",
       "Type": "TV Сериал",
@@ -28,8 +29,8 @@
         "https://kawai.shikimori.one/system/screenshots/original/f00eb61558920015e2bb507f53c07753f3156dd9.png?1550641820",
         "https://desu.shikimori.one/system/screenshots/original/01dd8b4c745ceef8086e8a27105fadfa8d088b3f.png?1550641825"
       ]
-    },
-    {
+      },
+      {
         "Id": 1,
         "Title": "Госпожа Кагуя: в любви как на войне 2",
         "Type": "TV Сериал",
@@ -735,7 +736,8 @@
   },
   "Popular": {
     "Name": "Popular",
-      "List": [
+      "List":
+      [
         {
         "Id": 2,
         "Title": "Код Гиас: Лелуш Воскресший",
@@ -793,3 +795,5 @@
   } 
 
 
+
+  

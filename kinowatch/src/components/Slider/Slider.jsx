@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from '@brainhubeu/react-carousel';
 import {useSelector} from 'react-redux';
+import {Link} from "react-router-dom";
 
 
 function Slick (props){
@@ -15,10 +16,10 @@ function Slick (props){
       infinite
       >
         {props.genre.map(item => (
-          <div className="carouselItem">
+          <Link className="carouselItem" to={`/${props.name}/${item.Id}`}>
             <div className="carousel--title">{item.Title}</div>
-            <img className="carousel--image" key={item.ID} src={item.Poster}/>
-          </div>
+            <img className="carousel--image" key={item.Id} src={item.Poster}/>
+          </Link>
       ))}
       </Carousel>
       </div>
