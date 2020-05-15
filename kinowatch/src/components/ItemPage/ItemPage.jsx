@@ -1,17 +1,13 @@
 import React from 'react';
+import {useSelector} from 'react-redux';
+import {Link, Route} from "react-router-dom";
+import { createSelector } from "reselect";
 
 
-// export const movieStore = createSelector(
-//     (state) => state.app.movies,
-//     (movies) => (code) => (
-//         object.values(movies).find((movie) => movie.id === id)
-//     ),
-// );
+function ItemPage(props){
 
-
-function ItemPage(){
     return(
-        <div>ITEM</div>
+        <div className="movie--title">Name</div>
     )
 }
 export default ItemPage;
