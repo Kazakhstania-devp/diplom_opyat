@@ -1,8 +1,9 @@
 import React from 'react';
 import Carousel from '@brainhubeu/react-carousel';
 import {useSelector} from 'react-redux';
-import {Link} from "react-router-dom";
-
+import {Link, Route} from "react-router-dom";
+import Header from '../layout/header'
+import  '../../routes';
 
 function Slick (props){
     return(

@@ -7,7 +7,7 @@ import MoviesPage from './components/MoviesPage/MoviesPage';
 import ListPage from './components/ListPage/ListPage';
 import HomePage from './components/HomePage/HomePage';
 import routeConfig from './config/routes';
-
+import ItemPage from './components/ItemPage/ItemPage'
 const WrappedComponent = (Component) => () =>(
     <App>
         <Component/>
@@ -46,6 +46,10 @@ export default(
     exact = {true} 
     path={routeConfig.LIST}
     component = {WrappedComponent(ListPage)}
+    />
+    <Route
+    exact = {true} 
+    component = {WrappedComponent(ItemPage)}
     />
 </Switch>
 )
