@@ -121,7 +121,7 @@
         "original": "N/A",
         "original autor": "Кадзуки Накасима",
         "producer": "Хироюки Имаиси",
-        "poster": "https://yandex.ru/images/_crpd/PCajy7022/40ac464hBaTL/140eGsh4pBZNdXA4_wSzSujkKmYFLfJ3FCmd7LXtibOKZ4ChWUU-3GLmsbyG2t0d267zrwONyzS0J3CLtJFlj8J9P3_MjTV2aUE06Bog41pN4e8jUVhix2Rovfz0aGjg",
+        "poster": "https://pbs.twimg.com/media/DbQ4sMyWkAEEvC3.jpg",
         "images": [
           "https://nyaa.shikimori.one/system/screenshots/original/97cfa73f5f9092add62ecc812c3ed3ac9b438f59.jpg?1423529167",
           "https://moe.shikimori.one/system/screenshots/original/9afc3a8ca1496332b1ea1e37ec9890518e87ef5e.jpg?1423529169",
@@ -147,7 +147,7 @@
         "original": "Вайолет Эвергарден",
         "original autor": "Кана Акацуки, Акико Такасэ",
         "producer": "Харука Фудзита, Таити Исидатэ",
-        "poster": "",
+        "poster": "https://yandex.ru/images/_crpd/PCajy7022/40ac464hBaTL/140eGsh4pBZNdXA4_wSzSujkKmYFLfJ3FCmd7LXtibOKZ4ChWUU-3GLmsbyG2t0d267zrwONyzS0J3CLtJFlj8J9P3_MjTV2aUE06Bog41pN4e8jUVhix2Rovfz0aGjg",
         "images": [
           "https://dere.shikimori.one/system/screenshots/original/9ee05bba0ae7206c0af55661950dcd982a073458.jpg?1515601806",
           "https://kawai.shikimori.one/system/screenshots/original/674c184a1a067eafaf3996a2327dae6494c43626.jpg?1515601828",
@@ -788,6 +788,32 @@
             "https://kawai.shikimori.one/system/screenshots/original/b82e586d32ab1fce83257b25081e4111bafbcf9e.jpg?1588871979",
             "https://moe.shikimori.one/system/screenshots/original/21c68995c7ea5a99333e24fae38fb2042c4227ee.jpg?1588871989",
             "https://moe.shikimori.one/system/screenshots/original/dabd4883e9befe5ad1a7ce6fec1e0c3e0cf6bb04.jpg?1588975437"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Kill la Kill",
+          "type": "TV Сериал",
+          "episodes": "24",
+          "duration": "24 мин.",
+          "status": "Вышло",
+          "genres": "Экшен, Комедия, Супер сила, Этти, Школа",
+          "rati": "RG-13",
+          "studio": "Trigger",
+          "original": "N/A",
+          "original autor": "Кадзуки Накасима",
+          "producer": "Хироюки Имаиси",
+          "poster": "https://pbs.twimg.com/media/DbQ4sMyWkAEEvC3.jpg",
+          "images": [
+            "https://nyaa.shikimori.one/system/screenshots/original/97cfa73f5f9092add62ecc812c3ed3ac9b438f59.jpg?1423529167",
+            "https://moe.shikimori.one/system/screenshots/original/9afc3a8ca1496332b1ea1e37ec9890518e87ef5e.jpg?1423529169",
+            "https://nyaa.shikimori.one/system/screenshots/original/ca3f0d852586b4ba9ec48833433a6dbd7a408158.jpg?1423529169",
+            "https://kawai.shikimori.one/system/screenshots/original/10b47014c8ce7855a3a8b15452a8a485a39f85f7.jpg?1423529170",
+            "https://nyaa.shikimori.one/system/screenshots/original/a35a3104f717b32810fe4f12b2f8ddcdcd4b15df.jpg?1423529170",
+            "https://dere.shikimori.one/system/screenshots/original/8baa5211c5b85897752e90ae61cecfd72f4dea42.jpg?1423529173",
+            "https://moe.shikimori.one/system/screenshots/original/aad2e269eabb21c4de6fb5fdd3d126e8214cbd21.jpg?1423529174",
+            "https://nyaa.shikimori.one/system/screenshots/original/e25f64fb7d717869fe548b75eca02370e4d7ab31.jpg?1423529175",
+            "https://dere.shikimori.one/system/screenshots/original/cc557c77b50cb077cdd8321eee5d05bb41d68744.png?1511996512"
           ]
         }
       ]
