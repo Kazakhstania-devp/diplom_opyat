@@ -49,7 +49,7 @@ export default(
     />
     <Route
     exact = {true}
-    path = "/movies/:Name/:Id" 
+    path = "/movies/:name/:id" 
     component = {WrappedComponent(ItemPage)}
     />
 </Switch>

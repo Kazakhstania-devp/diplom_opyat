@@ -6,7 +6,7 @@ function HomePage(){
     const rubric = useSelector((state) => state.rubricList);
     return (
         Object.keys(rubric).map((key) => (
-            <Slick name = {rubric[key].Name} genre = {rubric[key].List}/>
+            <Slick name = {rubric[key].name} genre = {rubric[key].list}/>
         )
     )
     )
