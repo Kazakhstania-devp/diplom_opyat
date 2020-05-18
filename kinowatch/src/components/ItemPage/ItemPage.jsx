@@ -7,7 +7,7 @@ import { createSelector } from "reselect";
 export const pageByRubricList = createSelector(
     (state) => state.rubricList,
     (rubricList) => (rubricName) => (id) => (
-     rubricList[rubricName].list.find((movie) => movie.id === id)
+        rubricList.length && rubricList[rubricName].list.find((movie) => movie.id === id) || null
     ),
 );
 
@@ -15,7 +15,6 @@ export const pageByRubricList = createSelector(
 function ItemPage(props){
 
     const { name, id } = useParams();
-
     const movie = useSelector((state) => pageByRubricList(state)(name)(id));
     return(
         <div className="movie--title"></div>
