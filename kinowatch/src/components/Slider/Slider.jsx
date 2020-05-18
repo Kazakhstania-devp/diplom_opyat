@@ -17,7 +17,7 @@ function Slick (props){
       infinite
       >
         {props.genre.map(item => (
-          <Link className="carouselItem" to={`/${props.name}/${item.Id}`} number={item.Id} rName = {props.name}>
+          <Link className="carouselItem" to={`/movies/${props.name}/${item.Id}`}>
             <div className="carousel--title">{item.Title}</div>
             <img className="carousel--image" key={item.Id} src={item.Poster}/>
           </Link>

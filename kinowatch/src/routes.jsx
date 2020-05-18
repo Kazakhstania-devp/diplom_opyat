@@ -48,7 +48,8 @@ export default(
     component = {WrappedComponent(ListPage)}
     />
     <Route
-    exact = {true} 
+    exact = {true}
+    path = "/movies/:Name/:Id" 
     component = {WrappedComponent(ItemPage)}
     />
 </Switch>
