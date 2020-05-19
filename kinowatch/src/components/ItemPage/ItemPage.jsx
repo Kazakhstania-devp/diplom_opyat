@@ -30,7 +30,7 @@ function ItemPage(props){
           }
 
           return (
-            <div>Lol</div>
+            <div>Ошибка</div>
           );
         }
     
