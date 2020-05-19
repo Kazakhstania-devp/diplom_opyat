@@ -22,8 +22,8 @@ function ItemPage(props){
             for(var key in movie){
             return (
                 <div>
-                <div className="movie--title">{movie.title}</div>
-                <img src={movie.poster}/>
+                    <div className="movie--title">{movie.title}</div>
+                    <img src={movie.poster}/>
                 </div>
             );
             }
