@@ -21,7 +21,10 @@ function ItemPage(props){
         if (movie != null) {
             for(var key in movie){
             return (
+                <div>
                 <div className="movie--title">{movie.title}</div>
+                <img src={movie.poster}/>
+                </div>
             );
             }
           }
