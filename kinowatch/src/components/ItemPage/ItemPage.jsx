@@ -16,16 +16,19 @@ function ItemPage(props){
 
     const { name, id } = useParams();
     const movie = useSelector((state) => pageByRubricList(state)(name)(id));
-
     console.log(movie);
 
-    return (
-        <div>
-            {movie && movie.map(item =>(
-                <div>{movie.title}</div>
-            )
-            )}
-        </div>
-    )
-}
+        if (movie != null) {
+            for(var key in movie){
+            return (
+                <div className="movie--title">{movie.title}</div>
+            );
+            }
+          }
+
+          return (
+            <div>Lol</div>
+          );
+        }
+    
 export default ItemPage;
