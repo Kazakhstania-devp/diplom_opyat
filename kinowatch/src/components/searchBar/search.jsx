@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import {useSelector} from 'react-redux';
-import {useParams} from "react-router-dom";
 import { createSelector } from "reselect";
 
-const regex1 = RegExp(/^[\w]/g);
+const regex1 = new RegExp('[\w]', 'gi');
 
 export const findMovie = createSelector(
     (state) => state.movieList,
     (movieList) => (filmName) => (
-    (movieList.length !==0 && movieList.filter((film) => film.title.includes(filmName))) || null),
+    (movieList.length !==0  && movieList.filter((film) => film.title.includes(filmName))) || null)
 );
 
 
@@ -23,9 +22,11 @@ export const findMovie = createSelector(
         e.preventDefault();
     }
     const film = useSelector((state) => findMovie(state)(name));
-    
     console.log(film);
     
+ 
+
+
     return(
         <div>
             <form>
