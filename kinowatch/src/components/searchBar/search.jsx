@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import {useSelector} from 'react-redux';
 import { createSelector } from "reselect";
 
-const regex1 = new RegExp('[\w]', 'gi');
+let regex1 = /\w/gi;
 
 export const findMovie = createSelector(
     (state) => state.movieList,
     (movieList) => (filmName) => (
-    (movieList.length !==0  && movieList.filter((film) => film.title.includes(filmName))) || null)
+    (movieList.length !==0  && movieList.filter((film) => film.title.toLowerCase().includes(filmName.toLowerCase()))) || null)
 );
 
 
