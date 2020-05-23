@@ -16,7 +16,7 @@ function ItemPage(props){
 
     const { name, id } = useParams();
     const movie = useSelector((state) => pageByRubricList(state)(name)(id));
-    console.log(movie);
+ 
 
         if (movie != null) {
             for(var key in movie){
@@ -28,9 +28,8 @@ function ItemPage(props){
             );
             }
           }
-
           return (
-            <div>Ошибка</div>
+            <div>404</div>
           );
         }
     

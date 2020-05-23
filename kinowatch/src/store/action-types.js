@@ -4,5 +4,4 @@ export const ActionType = {
   SET_MOVIE_LIST: 'SET_MOVIE_LIST',
   SET_RUBRIC_LIST: 'SET_RUBRIC_LIST',
   SET_NEW_LIST: 'SET_NEW_LIST',
-  
 }
