@@ -1,6 +1,7 @@
   [
     {
       "id": 0,
+      "rubric": "movies",
       "title": "Avatar",
       "year": "2009",
       "rated": "PG-13",
@@ -31,6 +32,7 @@
     },
     {
       "id": 1,
+      "rubric": "movies",
       "title": "I Am Legend",
       "year": "2007",
       "rated": "PG-13",
@@ -60,6 +62,7 @@
     },
     {
       "id": 2,
+      "rubric": "movies",
       "title": "300",
       "year": "2006",
       "rated": "R",
@@ -88,6 +91,7 @@
     },
     {
       "id": 3,
+      "rubric": "movies",
       "title": "The Avengers",
       "year": "2012",
       "rated": "PG-13",
@@ -118,6 +122,7 @@
     },
     {
       "id": 4,
+      "rubric": "movies",
       "title": "The Wolf of Wall Street",
       "year": "2013",
       "rated": "R",
@@ -148,6 +153,7 @@
     },
     {
       "id": 5,
+      "rubric": "movies",
       "title": "Interstellar",
       "year": "2014",
       "rated": "PG-13",
@@ -178,6 +184,7 @@
     },
     {
       "id": 6,
+      "rubric": "movies",
       "title": "Vikings",
       "year": "2013–",
       "rated": "TV-14",
@@ -209,6 +216,7 @@
     },
     {
       "id": 7,
+      "rubric": "movies",
       "title": "Gotham",
       "year": "2014–",
       "rated": "TV-14",
@@ -240,6 +248,7 @@
     },
     {
       "id": 8,
+      "rubric": "movies",
       "title": "Power",
       "year": "2014–",
       "rated": "TV-MA",
@@ -271,6 +280,7 @@
     },
     {
       "id": 9,
+      "rubric": "movies",
       "title": "Narcos",
       "year": "2015–",
       "rated": "TV-MA",
@@ -302,6 +312,7 @@
     },
     {
       "id": 10,
+      "rubric": "movies",
       "title": "Breaking Bad",
       "year": "2008–2013",
       "rated": "TV-14",
@@ -333,6 +344,7 @@
     },
     {
       "id": 11,
+      "rubric": "movies",
       "title": "Doctor Strange",
       "year": "2016",
       "rated": "N/A",
@@ -361,6 +373,7 @@
     },
     {
       "id": 12,
+      "rubric": "movies",
       "title": "Rogue One: A Star Wars Story",
       "year": "2016",
       "rated": "N/A",
@@ -391,6 +404,7 @@
     },
     {
       "id": 13,
+      "rubric": "movies",
       "сomingSoon": true,
       "title": "Assassin's Creed",
       "year": "2016",
@@ -421,6 +435,7 @@
     },
     {
       "id": 14,
+      "rubric": "movies",
       "comingSoon": true,
       "title": "Luke Cage",
       "rear": "2016–",
@@ -453,6 +468,7 @@
     },
     {
       "id": 15,
+      "rubric": "movies",
       "title": "Game of Thrones",
       "year": "2011–",
       "rated": "TV-MA",
@@ -484,6 +500,7 @@
     },
     {
       "id": 16,
+      "rubric": "movies",
       "title": "Spider-Man: Into the Spider-Verse 2",
       "year": "2022",
       "rated": "N/A",
