@@ -36,7 +36,7 @@ export const findMovie = createSelector(
                 />  
             </form>
             {film.map(item =>(
-                <div>{item.id}</div>
+                <div className="movie--title">{item.title}</div>
             ))}
         </div> 
         )   
