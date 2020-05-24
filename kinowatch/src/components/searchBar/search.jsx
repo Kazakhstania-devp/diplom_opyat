@@ -35,9 +35,11 @@ export const findMovie = createSelector(
                 onChange={e => setName(e.target.value)}
                 />  
             </form>
+            <div>
             {film.map(item =>(
-                <div className="movie--title">{item.title}</div>
+                <div className="movie--title"></div>
             ))}
+            </div>
         </div> 
         )   
     }
