@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {useSelector} from 'react-redux';
 import { createSelector } from "reselect";
+import {Link, Route} from "react-router-dom";
 
-let regex1 = /\w/gi;
 
 export const findMovie = createSelector(
     (state) => state.movieList,
@@ -27,15 +27,22 @@ export const findMovie = createSelector(
  
 
 
-    return(
-        <div>
-            <form>
+    if (film && film != null) {
+        return (
+         <div>
+           <form>
                 <input
                 onChange={e => setName(e.target.value)}
                 />  
-                <button onClick={submitValue}>Search</button>
             </form>
-        </div>
-    )
-}
+            {film.map(item =>(
+                <div>{item.id}</div>
+            ))}
+        </div> 
+        )   
+    }
+    return(
+        <input onChange={e => setName(e.target.value)} />  
+    );
+  }
 export default Search;
