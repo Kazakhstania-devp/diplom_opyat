@@ -22,7 +22,6 @@ export const findMovie = createSelector(
         e.preventDefault();
     }
     const film = useSelector((state) => findMovie(state)(name));
-    console.log(film);
     
  
 

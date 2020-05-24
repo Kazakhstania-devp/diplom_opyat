@@ -135,15 +135,13 @@ body{
 
 .main-poster{
   /* position: absolute; */
-  z-index: -1;
   height: 622px;
-  left: 0px;
-  padding-top: -50px;
   background: #141414;
 }
 
 .image-poster{
-  height: 675px;
+  width: auto;
+  height: 100%;
   background-repeat:  no-repeat;
   background-size: cover;
   background-image: url(./images/titans_season_2_2019_5k-5120x2880.jpg);
