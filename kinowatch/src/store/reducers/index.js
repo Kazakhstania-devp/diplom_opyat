@@ -5,6 +5,7 @@ const initialState = {
     movieList: [],
     rubricList: [],
     newList: [],
+    searchList: [],
 };
 
 export default function appReducer(state = initialState, action) {
@@ -23,6 +24,11 @@ export default function appReducer(state = initialState, action) {
       return{
         ...state,
         newList: action.payload
+      }
+    case ActionType.SEARCH_FILM:
+      return{
+        ...state,
+        searchList: action.payload
       }
     default: return state;
   }

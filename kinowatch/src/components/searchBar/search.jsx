@@ -1,49 +1,30 @@
 import React, { useState } from 'react';
-import {useSelector} from 'react-redux';
+import {useSelector, useDispatch} from 'react-redux';
 import { createSelector } from "reselect";
 import {Link, Route} from "react-router-dom";
 
-
-export const findMovie = createSelector(
-    (state) => state.movieList,
-    (movieList) => (filmName) => (
-    (movieList.length !==0  && movieList.filter((film) => film.title.toLowerCase().includes(filmName.toLowerCase()))) || null)
-);
-
+import {ActionCreator} from "../../store/actions"
 
   function Search(){
 
-    const [name, setName] = useState('');
-
-    const submitValue = (e) => {
-        const movieDetails = {
-            'Movie' : name,
-        }
-        e.preventDefault();
-    }
-    const film = useSelector((state) => findMovie(state)(name));
-    
- 
+    const dispatch = useDispatch();
 
 
-    if (film && film != null) {
+
+    if (ActionCreator.findMovies && ActionCreator.findMovies != null) {
         return (
          <div>
            <form>
                 <input
-                onChange={e => setName(e.target.value)}
+                onChange={e => dispatch(ActionCreator.findMovies(e.target.value))}
                 />  
             </form>
-            <div>
-            {film.map(item =>(
-                <div className="movie--title"></div>
-            ))}
-            </div>
+
         </div> 
         )   
     }
     return(
-        <input onChange={e => setName(e.target.value)} />  
+        <input />  
     );
   }
 export default Search;

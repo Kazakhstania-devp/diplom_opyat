@@ -135,14 +135,16 @@ body{
 
 .main-poster{
   /* position: absolute; */
-  z-index: -1;
-  height: 622px;
-  left: 0px;
   background: #141414;
 }
 
 .image-poster{
-  height: 675px;
+  width: 100%;
+
+  height: auto;
   background-repeat:  no-repeat;
-  background-size: cover;
+}
+.b-search{
+  background-color: #FFFFFF;
+  display: none;
 }

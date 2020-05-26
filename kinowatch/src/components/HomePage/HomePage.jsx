@@ -20,8 +20,6 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 function HomePage(){
-
-
     //Poster
     var rndFilm = 5;
     var name = "movies";
@@ -30,13 +28,12 @@ function HomePage(){
         rndFilm = getRandomInt(0, poster.list.length);
     }
 
-
     const rndPoster = useSelector((state) => randomMovie(state)(name)(rndFilm));
   
     //Slider
     const rubric = useSelector((state) => state.rubricList);
 
-
+    
 
     if (rndPoster != null) {
         for(var key in rndPoster){
