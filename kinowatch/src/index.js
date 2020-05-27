@@ -26,7 +26,6 @@ sagaMiddleware.run(sagaWatcher);
 const action = type => store.dispatch({type});
 action(ActionType.FETCH_INITIAL_DATA);
 
-
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

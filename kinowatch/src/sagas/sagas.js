@@ -1,4 +1,4 @@
-import { call, put, all, takeLatest, select } from 'redux-saga/effects';
+import { call, put, all, takeLatest, select, throttle } from 'redux-saga/effects';
 import {ActionType} from '../store/action-types';
 import {Operation} from '../api/operations';
 import {ActionCreator} from '../store/actions';
@@ -18,14 +18,17 @@ function* fetchInitialData() {
 }
 
 
+
 function* setFindMoviesSaga(action) {
-  const searchMovies = yield select(findMovieSelector,action);
+  const searchMovies = yield select((state) => findMovieSelector(state)(action.payload));
+  console.log(searchMovies);
   yield put(ActionCreator.setSearchList(searchMovies));
 }
+
 
 export default function* sagaWatcher() {
   yield all([
     takeLatest(ActionType.FETCH_INITIAL_DATA, fetchInitialData),
-    takeLatest(ActionType.SEARCH_FILM, setFindMoviesSaga)
+    throttle(1000, ActionType.FIND_MOVIE, setFindMoviesSaga)
       ]);
 }

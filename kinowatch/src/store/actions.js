@@ -19,7 +19,7 @@ export const ActionCreator = {
       payload: searchList
     }),
     findMovies: (searchQuery) =>({
-      type: ActionType.SEARCH_QUERY,
+      type: ActionType.FIND_MOVIE,
       payload: searchQuery,
     }),
 };

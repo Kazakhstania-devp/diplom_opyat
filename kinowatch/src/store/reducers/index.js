@@ -30,6 +30,8 @@ export default function appReducer(state = initialState, action) {
         ...state,
         searchList: action.payload
       }
+    
+      
     default: return state;
   }
 }
