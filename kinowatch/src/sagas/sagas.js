@@ -20,6 +20,7 @@ function* fetchInitialData() {
 
 
 function* setFindMoviesSaga(action) {
+  
   const searchMovies = yield select((state) => findMovieSelector(state)(action.payload));
   console.log(searchMovies);
   yield put(ActionCreator.setSearchList(searchMovies));
