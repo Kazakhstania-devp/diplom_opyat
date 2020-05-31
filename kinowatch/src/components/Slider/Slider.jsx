@@ -16,6 +16,7 @@ function Slick (props){
       arrows
       infinite
       >
+        {/* Создание элементов слайдера и ссылок на их страницы */}
         {props.genre.map(item => (
           <Link className="carouselItem" to={`/movies/${props.name}/${item.id}`}>
             <div className="carousel--title">{item.title}</div>

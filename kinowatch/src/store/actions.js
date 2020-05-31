@@ -1,6 +1,6 @@
 import {ActionType} from './action-types';
 
-
+// Передача данных в стор 
 export const ActionCreator = {
     setMovieList: (movies) => ({
         type: ActionType.SET_MOVIE_LIST,

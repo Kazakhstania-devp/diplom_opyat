@@ -1,5 +1,6 @@
 import {ActionType} from '../action-types';
 
+// Дефолтное состояние
 const initialState = {
     error: '',
     movieList: [],
@@ -7,7 +8,7 @@ const initialState = {
     newList: [],
     searchList: [],
 };
-
+// Редьюсер изначально принимает в стор дефолтное состояние(выше), а после выполнения экшена возвращает данные
 export default function appReducer(state = initialState, action) {
     switch (action.type) {
     case ActionType.SET_MOVIE_LIST:
