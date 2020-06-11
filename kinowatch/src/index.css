@@ -304,20 +304,19 @@ body{
   overflow:hidden;
   max-height: 500px;
   text-align: center;
+  text-align: -webkit-center;
 }
 
 /* Мини-постер на странице - картинка */
 .movie-page-poster-mini-img{
   position: relative;
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* Выравнивание картинки по центру мини-постера */
-.image-flex {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 /* Затемнение картинки основного постера */
 .movie-page-poster-solid-shadow{
@@ -405,4 +404,3 @@ body{
   background-color: green;
   color: White;
 }
-

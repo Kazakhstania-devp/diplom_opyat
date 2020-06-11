@@ -29,7 +29,7 @@ function ItemPage(props){
                         <img className="movie-page-poster-img" alt={movie.name} src={movie.poster}/>
                     </div>
                     <div className="movie-page-main">
-                        <div className="movie-page-poster-mini image-flex">
+                        <div className="movie-page-poster-mini">
                             <img className="movie-page-poster-mini-img" src={movie.poster}></img>
                         </div>
                         <div className="movie-page-poster-solid-shadow"></div>
@@ -43,12 +43,8 @@ function ItemPage(props){
                                 <h1 className="button-poster-text-add">Add to me</h1>
                             </button>
                             <div className="movie--title">{movie.title}</div>
-                            <div src={movie.discription}></div>
-                            <div>
-
-                            </div>
                         </div>
-                        
+                        <div>{movie.id}</div>
 
                     </div>
                     
