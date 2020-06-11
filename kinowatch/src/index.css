@@ -143,6 +143,19 @@ body{
   background: #141414;
 }
 
+.poster-solid-shadow{
+  position: absolute;
+  width: 315px;
+  height: 622px;
+  margin-left: 70px;
+  background-color: rgba(0, 0, 3, .5);
+}
+
+.poster-logo{
+  position: absolute;
+  margin-top: 200px;
+}
+
 /* Стиль изоброжения постера */
 .image-poster{
   width: 100%;
@@ -174,7 +187,7 @@ body{
 }
 
 .button-poster-play:hover { 
-  background-color: #555555;
+  background-color: red;
   color: white;
 }
 
@@ -200,8 +213,8 @@ body{
 }
 
 .button-poster-add:hover{
-  background-color: #555555;
-  color: white;
+  background-color: green;
+  color: White;
 }
 
 /* Стиль иконки в кнопке */
@@ -241,6 +254,11 @@ body{
 
 .poster-text-small{
   position: absolute;
+  margin-top: 520px;
+  margin-left: 75px;
+  width: 303px;
+  color: White;
+  font-style: italic;
 }
 
 
@@ -251,3 +269,140 @@ body{
   text-decoration-color: #FFFFFF;
   display: none;
 }
+
+
+
+
+
+
+/* Страница фильма */
+
+
+/* Постер на странице */
+.movie-page-poster {
+  position: absolute;
+  width: 1920px;
+  height: 520px;
+  overflow:hidden;
+}
+
+/* Постер на странице - картинка */
+.movie-page-poster-img {
+  position:absolute;
+  top: 100%;
+  left: 100;
+  transform: translate(-50%, -50%);
+}
+
+/* Мини-постер на странице */
+.movie-page-poster-mini{
+  position: absolute;
+  width: 298px;
+  height: 381px;
+  top: -450px;
+  border-radius: 10px;
+  overflow:hidden;
+  max-height: 500px;
+  text-align: center;
+}
+
+/* Мини-постер на странице - картинка */
+.movie-page-poster-mini-img{
+  position: relative;
+  display: block;
+}
+
+/* Выравнивание картинки по центру мини-постера */
+.image-flex {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Затемнение картинки основного постера */
+.movie-page-poster-solid-shadow{
+  position: absolute;
+  width: 1920px;
+  height: 520px;
+  top: -520px;
+  margin-left: -210px;
+  background-color: rgba(0, 0, 3, .5);
+}
+
+/* Основной блок страницы */
+.movie-page-main{
+  position: absolute;
+  background-color: #282828;
+  width: 1500px;
+  height: 1600px;
+  left: 209px;
+  top: 580px;
+}
+
+/* Блок для навзание, а так же для кнопок */
+.movie-page-boxname{
+  position: absolute;
+  width: 1926px;
+  height: 60px;
+  left: -209px;
+  top: -60px;
+  background: rgba(0, 0, 0, 0.67);
+}
+
+/* Название */
+.movie--title{
+  font-size: 35px;
+}
+
+/* Кнопка "Play" */
+.movie-page-play{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -755px;
+  width: 130px;
+  height: 50px;
+  color: Black;
+  background-color: rgba(56, 56, 56, .5);
+  padding: 8px;
+  display: inline-block;
+  outline: none;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+/* Кнопка "Play": при наведении мышью */
+.movie-page-play:hover{
+  background-color: red;
+  color: white;
+}
+
+/* Кнопка "Add" */
+.movie-page-add{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -615px;
+  width: 160px;
+  height: 50px;
+  color: Black;
+  background-color: rgba(15, 15, 15, .8);
+  padding: 8px;
+  display: inline-block;
+  outline: none;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+/* Кнопка "Add": при наведении мышью */
+.movie-page-add:hover{
+  background-color: green;
+  color: White;
+}
+
