@@ -133,18 +133,121 @@ body{
   color: #FFFFFF;
 }
 
+
+/* Стиль постера: начало */
 .main-poster{
   /* position: absolute; */
+  width: 1920px;
+  height: 622px;
+  left: 0px;
   background: #141414;
 }
 
+/* Стиль изоброжения постера */
 .image-poster{
   width: 100%;
-
-  height: auto;
+  width: 1920px;
+  height: 622px;
+  left: 0px;
+  top: 0px;
   background-repeat:  no-repeat;
 }
+
+/* Стиль кнопки PLAY */
+.button-poster-play{
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 75px;
+  width: 130px;
+  height: 50px;
+  color: Black;
+  background-color: rgba(56, 56, 56, .5);
+  padding: 8px;
+  display: inline-block;
+  outline: none;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.button-poster-play:hover { 
+  background-color: #555555;
+  color: white;
+}
+
+
+/* Стиль кнопки Add */
+.button-poster-add{
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 220px;
+  width: 160px;
+  height: 50px;
+  color: Black;
+  background-color: rgba(15, 15, 15, .8);
+  padding: 8px;
+  display: inline-block;
+  outline: none;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.button-poster-add:hover{
+  background-color: #555555;
+  color: white;
+}
+
+/* Стиль иконки в кнопке */
+.Button-poster-img-play{
+  margin-top: -1px;
+  margin-left: -75px;
+}
+
+.Button-poster-img-add{
+  margin-top: -1px;
+  margin-left: -100px;
+}
+
+/* Стиль текста в кнопке "play" */
+.button-poster-text-play{
+  text-align: center;
+  color: white;
+  margin-top: -32px;
+  margin-left: 30px;
+}
+
+/* Стиль текста в кнопке "add" */
+.button-poster-text-add{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin-top: -30px;
+  margin-left: 42px;
+}
+
+/* Линия, разделяющая кнопки с описанием */
+.poster-line{
+  position: absolute;
+  margin-top: 510px;
+  margin-left: 75px;
+}
+
+.poster-text-small{
+  position: absolute;
+}
+
+
+/* Стиль постера: конец */
+
 .b-search{
   background-color: #FFFFFF;
+  text-decoration-color: #FFFFFF;
   display: none;
 }

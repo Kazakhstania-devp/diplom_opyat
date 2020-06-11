@@ -1,8 +1,11 @@
 import React from 'react';
 import Slick from '../Slider/Slider'
 import {useSelector} from 'react-redux';
+import  Play from '../../images/play.png';
+import Add from '../../images/add.png'
 import {useParams} from "react-router-dom";
 import { createSelector } from "reselect";
+import  '../../routes';
 
 
 
@@ -46,6 +49,16 @@ export function Poster(props){
         return (
         <div>
             <div className="main-poster">
+                <button className="button-poster-play">
+                    <img src={Play} className="Button-poster-img-play"></img>
+                    <h1 className="button-poster-text-play">PLAY</h1>
+                </button>
+                <button className="button-poster-add">
+                    <img src={Add} className="Button-poster-img-add"></img>
+                    <h1 className="button-poster-text-add">Add to me</h1>
+                </button>
+                <hr className="poster-line" align="center" width="303" size="2" color="black" />
+                <h5 className="poster-text-small">Сейчас просто какой-то рандомный текст, который в будущем должен быть заменен на короткое описание</h5>
                 <img src={rndPoster.poster} className="image-poster"></img>
             </div>  
         </div>
