@@ -2,7 +2,7 @@
     {
       "id": 0,
       "rubric": "movies",
-      "title": "Avatar",
+      "title": "Аватар",
       "year": "2009",
       "rated": "PG-13",
       "released": "18 Dec 2009",
@@ -16,12 +16,11 @@
       "country": "USA, UK",
       "awards": "Won 3 Oscars. Another 80 wins & 121 nominations.",
       "poster": "https://avatars.mds.yandex.net/get-pdb/2078959/3bee064f-f6b6-47dd-9439-009aba1f9695/s1200?webp=false",
-      "logo": "https://www.pngjoy.com/pngl/137/2775206_luke-cage-marvel-luke-cage-logo-png-download.png",
-      "metascore": "83",
+      "metascore": "Avatar",
       "imdbRating": "7.9", 
       "imdbVotes": "890,617",
       "imdbID": "tt0499549",
-      "type": "movie",
+      "type": "Полнометражный фильм",
       "response": "True",
       "description": "Синие челики, что больше людей живет на дереве",
       "images": [
@@ -325,6 +324,7 @@
       "id": 10,
       "rubric": "movies",
       "title": "Breaking Bad",
+      "description": "Синие челики, что больше людей живет на дереве",
       "year": "2008–2013",
       "rated": "TV-14",
       "released": "20 Jan 2008",
@@ -345,7 +345,6 @@
       "type": "series",
       "totalSeasons": "5",
       "response": "True",
-      "description": "Синие челики, что больше людей живет на дереве",
       "images": [
         "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgyMzI5NDc5Nl5BMl5BanBnXkFtZTgwMjM0MTI2MDE@._V1_SY1000_CR0,0,1498,1000_AL_.jpg",
         "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2NDkwNDk5NV5BMl5BanBnXkFtZTgwNDM0MTI2MDE@._V1_SY1000_CR0,0,1495,1000_AL_.jpg",
@@ -377,7 +376,6 @@
       "imdbID": "tt1211837",
       "type": "movie",
       "response": "True",
-      "description": "Синие челики, что больше людей живет на дереве",
       "images": [
         "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM3ODc1ODI5Ml5BMl5BanBnXkFtZTgwODMzMDY3OTE@._V1_.jpg",
         "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxNTAyNTU0NV5BMl5BanBnXkFtZTgwNzMzMDY3OTE@._V1_.jpg",

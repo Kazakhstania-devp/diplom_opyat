@@ -8,7 +8,7 @@ import  '../../routes';
 function Slick (props){
     return(
       <div className="block__inner slider__inner">
-      <div className="slider__head">{props.name} ></div>
+      <div className="slider__head">{props.name} > </div>
       <Carousel 
       slidesPerPage={7}
       slidesPerScroll={1}

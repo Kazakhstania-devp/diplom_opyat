@@ -28,7 +28,7 @@ ul{
 }
 .block__inner{
   padding-left: 70px;
-padding-right: 70px;
+  padding-right: 70px;
 }
 .header__menu{
   display: flex;
@@ -143,6 +143,7 @@ body{
   background: #141414;
 }
 
+/* Полоса затемнения на постере */
 .poster-solid-shadow{
   position: absolute;
   width: 315px;
@@ -151,9 +152,12 @@ body{
   background-color: rgba(0, 0, 3, .5);
 }
 
+/* Лого фильма на постере */
 .poster-logo{
   position: absolute;
-  margin-top: 200px;
+  width: 300px;
+  margin-left: 80px;
+  margin-top: 100px;
 }
 
 /* Стиль изоброжения постера */
@@ -179,7 +183,7 @@ body{
   display: inline-block;
   outline: none;
   text-align: center;
-  border: 1px solid black;
+  border: none;
   border-radius: 5px;
   text-decoration: none;
   -webkit-transition-duration: 0.4s; 
@@ -204,7 +208,7 @@ body{
   padding: 8px;
   display: inline-block;
   outline: none;
-  border: 1px solid black;
+  border: none;
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
@@ -303,8 +307,6 @@ body{
   border-radius: 10px;
   overflow:hidden;
   max-height: 500px;
-  text-align: center;
-  text-align: -webkit-center;
 }
 
 /* Мини-постер на странице - картинка */
@@ -312,7 +314,7 @@ body{
   position: relative;
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 /* Выравнивание картинки по центру мини-постера */
@@ -366,7 +368,7 @@ body{
   display: inline-block;
   outline: none;
   text-align: center;
-  border: 1px solid black;
+  border: none;
   border-radius: 5px;
   text-decoration: none;
   -webkit-transition-duration: 0.4s; 
@@ -391,7 +393,7 @@ body{
   padding: 8px;
   display: inline-block;
   outline: none;
-  border: 1px solid black;
+  border: none;
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
@@ -404,3 +406,62 @@ body{
   background-color: green;
   color: White;
 }
+
+/* Блок и информацией о фильме */
+.movie-page-info{
+  text-align: left;
+}
+
+/* Информация о фильме (Оригинальное название и др) */
+.movie--info{
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+/* Основной текст */
+.movie--info--text{
+  color: black;
+  display: block;
+  margin-top: -15px;
+}
+
+/* Второй текст */
+.movie--info--text-2{
+  display: inline;
+  color: white;
+}
+
+/* Описание фильма */
+.movie--description{
+  display: block;
+  height: 300px;
+  width: 1500px;
+  background-color: gray;
+}
+
+/* Слово "Описание" */
+.movie--description-name{
+  background-color: #141414;
+  color: white;
+  text-align: center;
+}
+
+/* Текст описания */
+.movie--description-next{
+  margin-left: 25px;
+  font-size: 24px;
+  width: 1440px;
+}
+
+/* Слайдер */
+.movie-slider{
+  width: 1500px;
+  height: 500px;
+
+}
+
+/*  */
+.movie-slider-img{
+  width: 1500px;
+}
+
