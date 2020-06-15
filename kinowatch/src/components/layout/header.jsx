@@ -14,7 +14,6 @@ function Header (props){
                 <li className = "menu__item"><Link to="/Home">Home</Link></li>
                 <li className = "menu__item"><Link to="/New">New</Link></li>
                 <li className = "menu__item"><Link to="/Movies">Movies</Link></li>
-                <li className = "menu__item"><Link to="/Anime">Anime</Link></li>
                 <li className = "menu__item"><Link to="/ListPage">My list</Link></li>
             </ul>
             <Search></Search>     

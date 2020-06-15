@@ -456,12 +456,18 @@ body{
 /* Слайдер */
 .movie-slider{
   width: 1500px;
-  height: 500px;
-
 }
 
 /*  */
 .movie-slider-img{
+  position: relative;
+  display: block;
   width: 1500px;
+
 }
 
+.movie-slider-block{
+  display: block;
+  width: 1500px;
+  height: 800px;
+}

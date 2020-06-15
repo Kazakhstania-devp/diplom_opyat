@@ -24,6 +24,8 @@ function ItemPage(props){
     const movie = useSelector((state) => pageByRubricList(state)(name)(id));
  
 
+    
+
         if (movie != null) {
             for(var key in movie){
                
@@ -70,14 +72,18 @@ function ItemPage(props){
                             <Carousel 
                             slidesPerPage={1}
                             slidesPerScroll={1}
-                            offset={70}
+                            offset={0}
                             arrows
                             infinite
+                            dots
+                            draggable={false}
                             itemWidth={1500}
                             >
                                 {/* Создание элементов слайдера и ссылок на их страницы */}
                                 {movie.images.map(item =>(
+                                    <div className="movie-slider-block">
                                         <img className="movie-slider-img" src={item}></img>
+                                    </div>
                                     ))};
                             </Carousel>
                             </div>

@@ -11,6 +11,7 @@ function info(){
 
     if (movie.type = "TV Сериал"){
         return(
+            <div className="movie--info">
             <h4 className="movie--info--text">Оригинальное название: <h4 className="movie--info--text-2">{movie.metascore}</h4></h4>
             <h4 className="movie--info--text">Рейтинг: <h4 className="movie--info--text-2">{movie.rated}</h4></h4>
             <h4 className="movie--info--text">Дата выхода: <h4 className="movie--info--text-2">{movie.relesed}</h4></h4>
@@ -20,6 +21,7 @@ function info(){
             <h4 className="movie--info--text">Страна: <h4 className="movie--info--text-2">{movie.country}</h4></h4>
             <h4 className="movie--info--text">Язык: <h4 className="movie--info--text-2">{movie.language}</h4></h4>
             <h4 className="movie--info--text">Тип: <h4 className="movie--info--text-2">{movie.type}</h4></h4>
+            </div>
         )
         }
     else{
