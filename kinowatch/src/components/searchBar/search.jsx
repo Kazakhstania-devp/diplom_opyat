@@ -13,8 +13,8 @@ import { object } from 'prop-types';
     
     if (ActionCreator.findMovies && ActionCreator.findMovies != null) {
         return (
-         <div>
-           <form>
+         <div className="search">
+           <form className="search--input">
              {/* Вызывает экшн на поиск фильма */}
                 <input
                 onChange={e => dispatch(ActionCreator.findMovies(e.target.value))}

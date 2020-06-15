@@ -137,9 +137,7 @@ body{
 /* Стиль постера: начало */
 .main-poster{
   /* position: absolute; */
-  width: 1920px;
   height: 622px;
-  left: 0px;
   background: #141414;
 }
 
@@ -163,10 +161,7 @@ body{
 /* Стиль изоброжения постера */
 .image-poster{
   width: 100%;
-  width: 1920px;
   height: 622px;
-  left: 0px;
-  top: 0px;
   background-repeat:  no-repeat;
 }
 
@@ -260,9 +255,10 @@ body{
   position: absolute;
   margin-top: 520px;
   margin-left: 75px;
+  font-size: 24px;
   width: 303px;
   color: White;
-  font-style: italic;
+
 }
 
 
@@ -285,7 +281,7 @@ body{
 /* Постер на странице */
 .movie-page-poster {
   position: absolute;
-  width: 1920px;
+  width: 100%;
   height: 520px;
   overflow:hidden;
 }
@@ -293,7 +289,9 @@ body{
 /* Постер на странице - картинка */
 .movie-page-poster-img {
   position:absolute;
-  top: 100%;
+  width: 1900px;
+  height: 520px;
+  top: 50%;
   left: 100;
   transform: translate(-50%, -50%);
 }
@@ -323,7 +321,7 @@ body{
 /* Затемнение картинки основного постера */
 .movie-page-poster-solid-shadow{
   position: absolute;
-  width: 1920px;
+  width: 1903px;
   height: 520px;
   top: -520px;
   margin-left: -210px;
@@ -333,9 +331,9 @@ body{
 /* Основной блок страницы */
 .movie-page-main{
   position: absolute;
-  background-color: #282828;
+  background-color: #404040;
   width: 1500px;
-  height: 1600px;
+  height: 200%;
   left: 209px;
   top: 580px;
 }
@@ -343,7 +341,7 @@ body{
 /* Блок для навзание, а так же для кнопок */
 .movie-page-boxname{
   position: absolute;
-  width: 1926px;
+  width: 1903px;
   height: 60px;
   left: -209px;
   top: -60px;
@@ -359,7 +357,7 @@ body{
 .movie-page-play{
   position: absolute;
   margin-top: 5px;
-  margin-left: -755px;
+  margin-left: -743px;
   width: 130px;
   height: 50px;
   color: Black;
@@ -385,7 +383,7 @@ body{
 .movie-page-add{
   position: absolute;
   margin-top: 5px;
-  margin-left: -615px;
+  margin-left: -605px;
   width: 160px;
   height: 50px;
   color: Black;
@@ -421,8 +419,9 @@ body{
 /* Основной текст */
 .movie--info--text{
   color: black;
+  font-size: 20px;
   display: block;
-  margin-top: -15px;
+  margin-top: 0px;
 }
 
 /* Второй текст */
@@ -436,12 +435,12 @@ body{
   display: block;
   height: 300px;
   width: 1500px;
-  background-color: gray;
+  background-color: #404040;
 }
 
 /* Слово "Описание" */
 .movie--description-name{
-  background-color: #141414;
+
   color: white;
   text-align: center;
 }
@@ -455,19 +454,36 @@ body{
 
 /* Слайдер */
 .movie-slider{
+  min-width: 100%;
+  min-height: 100%;
   width: 1500px;
+  border-radius: 3px;
+  object-fit: cover;
+  background-size: contain
 }
 
-/*  */
+/* Изображение слайдера */
 .movie-slider-img{
-  position: relative;
   display: block;
   width: 1500px;
 
 }
 
+/* Блок, в котором располоджено изображение слайдера */
 .movie-slider-block{
   display: block;
   width: 1500px;
   height: 800px;
+}
+
+.movie-page-player{
+  display: block;
+  height: 700px;
+  width: 1500px;
+}
+
+
+.search{
+  position: absolute;
+  margin-left: 1463px;
 }

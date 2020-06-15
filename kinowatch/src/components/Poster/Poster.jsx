@@ -63,7 +63,7 @@ export function Poster(props){
                     <h1 className="button-poster-text-add">Add to me</h1>
                 </button>
                     <hr className="poster-line" align="center" width="303" size="2" color="white" />
-                    <h5 className="poster-text-small">{rndPoster.plot}</h5>
+                    <h5 className="poster-text-small">{rndPoster.slogan}</h5>
                 <img src={rndPoster.poster} className="image-poster"></img>  
             </div>  
         </div>

@@ -11,13 +11,12 @@ function Header (props){
                 <img src={Logo} />
             </Link>
             <ul className = "header__menu">
-                <li className = "menu__item"><Link to="/Home">Home</Link></li>
-                <li className = "menu__item"><Link to="/New">New</Link></li>
-                <li className = "menu__item"><Link to="/Movies">Movies</Link></li>
-                <li className = "menu__item"><Link to="/ListPage">My list</Link></li>
+                <li className = "menu__item"><Link to="/Home">Главная</Link></li>
+                <li className = "menu__item"><Link to="/New">Новое</Link></li>
+                <li className = "menu__item"><Link to="/Movies">Фильмы</Link></li>
+                <li className = "menu__item"><Link to="/ListPage">Мой список</Link></li>
             </ul>
             <Search></Search>     
-            
         </header>   
     )
 }

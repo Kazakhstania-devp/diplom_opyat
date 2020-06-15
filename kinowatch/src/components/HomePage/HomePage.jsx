@@ -10,7 +10,7 @@ function HomePage(){
     //Селектор для получения фильмов в слайдер
     const rubric = useSelector((state) => state.rubricList);
 
-    
+    //
     return(
         <div>
             <Poster name="movies"></Poster>
