@@ -134,6 +134,21 @@ body{
 }
 
 
+/* Поиск */
+.search{
+  position: absolute;
+  margin-left: 1463px;
+}
+
+
+
+
+
+
+
+
+
+
 /* Стиль постера: начало */
 .main-poster{
   /* position: absolute; */
@@ -325,7 +340,7 @@ body{
   height: 520px;
   top: -520px;
   margin-left: -210px;
-  background-color: rgba(0, 0, 3, .5);
+  background-color: rgba(0, 0, 3, .2);
 }
 
 /* Основной блок страницы */
@@ -476,6 +491,7 @@ body{
   height: 800px;
 }
 
+/* Должен быть плеер, но не работает */
 .movie-page-player{
   display: block;
   height: 700px;
@@ -483,7 +499,3 @@ body{
 }
 
 
-.search{
-  position: absolute;
-  margin-left: 1463px;
-}
