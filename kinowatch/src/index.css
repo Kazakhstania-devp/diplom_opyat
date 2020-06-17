@@ -293,6 +293,11 @@ body{
 /* Страница фильма */
 
 
+
+.MainPage{
+  font-family: 'Roboto', sans-serif;
+}
+
 /* Постер на странице */
 .movie-page-poster {
   position: absolute;
@@ -315,8 +320,8 @@ body{
 .movie-page-poster-mini{
   position: absolute;
   width: 298px;
-  height: 381px;
-  top: -450px;
+  height: 398px;
+  top: -470px;
   border-radius: 10px;
   overflow:hidden;
   max-height: 500px;

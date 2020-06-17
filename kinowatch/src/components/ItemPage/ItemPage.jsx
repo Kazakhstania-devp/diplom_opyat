@@ -31,7 +31,7 @@ function ItemPage(props){
             for(var key in movie){
                 
             return (
-                <div> 
+                <div className="MainPage"> 
                     {/* Большой постер на странице */}
                     <div className="movie-page-poster"> 
                         {/* Изображение постера */}

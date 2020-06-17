@@ -48,7 +48,7 @@ export function Poster(props){
     if (rndPoster != null) {
         for(var key in rndPoster){
         return (
-        <div>
+        <div className="MainPage">
             <div className="main-poster">
                 <div className="poster-solid-shadow"></div>
                 <img className="poster-logo" alt="Постера не имеется" src={rndPoster.awards}></img>
