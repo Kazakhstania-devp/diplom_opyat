@@ -504,3 +504,14 @@ body{
 }
 
 
+/* Футер */
+.footer {
+  background-color: #141414;
+  margin: 0;
+  padding: 0;
+  bottom: 20px;
+}
+.content {
+  min-height: calc(100vh - 80px);
+}
+

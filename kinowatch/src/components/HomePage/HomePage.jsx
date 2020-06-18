@@ -19,6 +19,11 @@ function HomePage(){
                 <Slick name = {rubric[key].name} genre = {rubric[key].list}/>
             ))}
             </div>
+            <div className="footer">
+                <div>
+                    <h1>Как жизнь?</h1>
+                </div>
+            </div>
         </div>
     )
     

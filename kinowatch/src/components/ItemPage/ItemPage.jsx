@@ -116,7 +116,11 @@ function ItemPage(props){
                             <div id="yohoho" data-title="Тайна Коко"></div>
                             <script src="//yohoho.cc/yo.js"></script>
                         </div>
-                        
+                        <div className="footer">
+                            <div>
+                                <h1>Как жизнь?</h1>
+                            </div>
+                        </div>
                     </div>
                     
                 </div>
